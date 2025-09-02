@@ -1,0 +1,19 @@
+state={
+	id=108
+	name="STATE_108"
+	resources={
+		steel=3.000
+	}
+	provinces={
+		6634 6998 11583 
+	}
+	history = {
+		add_core_of = SER
+		add_claim_by = BUL
+		owner = SER
+	}
+	manpower=707000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=5.000
+}

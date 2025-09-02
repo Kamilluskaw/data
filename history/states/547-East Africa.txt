@@ -1,0 +1,15 @@
+state={
+	id=547
+	name="STATE_547"
+	provinces={
+		2066 5079 10962 13135 
+	}
+	history = {
+		owner = ENG
+		add_core_of = KEN
+	}
+	manpower=1085440
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=6.000
+}

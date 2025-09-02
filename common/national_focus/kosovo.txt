@@ -1,0 +1,114 @@
+focus_tree = {
+	id = kosovo
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOS
+		}
+	}
+	#Migration treaties with Bulgaria
+	focus = {
+		id = KOS_migration_treaties_with_bulgaria
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KOS_under_albania  }
+	}
+
+	#Closing the case
+	focus = {
+		id = KOS_closing_the_case
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KOS_burn_down_belgrade  focus = KOS_against_the_swarm  }
+	}
+
+	#Against the Swarm
+	focus = {
+		id = KOS_against_the_swarm
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KOS_maybeyugoslavia  }
+	}
+
+	#The Final stand of Pristina
+	focus = {
+		id = KOS_the_final_stand_of_pristina
+		icon = GFX_goal_unknown
+		x = 1
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = KOS_under_albania  }
+	}
+
+	#Under Albania
+	focus = {
+		id = KOS_under_albania
+		icon = GFX_goal_unknown
+		x = 3
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Maybe Yugoslavia?
+	focus = {
+		id = KOS_maybeyugoslavia
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KOS_the_final_stand_of_pristina  }
+	}
+
+	#Burn down Belgrade
+	focus = {
+		id = KOS_burn_down_belgrade
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KOS_migration_treaties_with_bulgaria  }
+	}
+
+	#The Shade Within
+	focus = {
+		id = KOS_the_shade_within
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KOS_under_albania  focus = KOS_the_final_stand_of_pristina  }
+	}
+
+}

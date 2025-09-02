@@ -1,0 +1,24 @@
+state={
+	id=883
+	name="STATE_883"
+	provinces={
+		1977 2003 2088 12725 
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+	victory_points = {
+		1977 11
+	}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+		}
+	}
+
+	manpower=511402
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

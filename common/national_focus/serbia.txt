@@ -1,0 +1,182 @@
+focus_tree = {
+	id = serbia
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SER
+		}
+	}
+	#Against all odds
+	focus = {
+		id = SER_against_all_odds
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_integrate_spreska  focus = SER_volunteers_from_moscow  }
+	}
+
+	#Form the Serbian Unificatory front
+	focus = {
+		id = SER_form_the_serbian_unificatory_front
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_it_all_went_into_flames  }
+	}
+
+	#Establish foreign connections
+	focus = {
+		id = SER_establish_foreign_connections
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_empoverment_from_the_military  }
+		mutually_exclusive = { focus = SER_support_zagreb  }
+	}
+
+	#In the name of Panslavia
+	focus = {
+		id = SER_in_the_name_of_panslavia
+		icon = GFX_goal_unknown
+		x = 1
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_against_all_odds  }
+	}
+
+	#Support Zagreb
+	focus = {
+		id = SER_support_zagreb
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_form_the_serbian_unificatory_front  }
+		mutually_exclusive = { focus = SER_establish_foreign_connections  }
+	}
+
+	#Volunteers from Moscow
+	focus = {
+		id = SER_volunteers_from_moscow
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_establish_foreign_connections  }
+	}
+
+	#Integrate Spreska
+	focus = {
+		id = SER_integrate_spreska
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_support_zagreb  }
+	}
+
+	#Collaboration with the Fallen Beluga
+	focus = {
+		id = SER_collaboration_with_the_fallen_beluga
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = SER_it_all_went_into_flames  }
+	}
+
+	#Empoverment from the military
+	focus = {
+		id = SER_empoverment_from_the_military
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_it_all_went_into_flames  }
+	}
+
+	#It all went into flames
+	focus = {
+		id = SER_it_all_went_into_flames
+		icon = GFX_goal_unknown
+		x = 1
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = SER_collaboration_with_the_fallen_beluga  }
+	}
+
+	#Ceasefire with the Albanians
+	focus = {
+		id = SER_ceasefire_with_the_albanians
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_collaboration_with_the_fallen_beluga  }
+	}
+
+	#The Confederacy of Independent States
+	focus = {
+		id = SER_the_confederacy_of_independent_states
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_ceasefire_with_the_albanians  }
+	}
+
+	#The War against Monarchies
+	focus = {
+		id = SER_the_war_against_monarchies
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SER_the_confederacy_of_independent_states  }
+	}
+
+}

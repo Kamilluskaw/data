@@ -1,0 +1,15 @@
+state={
+	id=1027
+	name="Bosanka"
+	provinces={
+		3985 6957 6983 9586 
+	}
+	History={
+		owner=CRO
+		add_core_of=BOS
+	}
+	state_category=rural
+	manpower=787878
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

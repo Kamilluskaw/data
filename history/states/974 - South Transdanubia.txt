@@ -1,0 +1,22 @@
+state={
+	id=974
+	name="Dél Dunántúl"
+	resources={
+		oil=1.000
+		aluminium=20.000
+	}
+	provinces={
+		682 3670 3680 6685 9624 9643 11610 9608
+	}
+	History={
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 2
+		}
+    	owner= CWM}
+	manpower=732535
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

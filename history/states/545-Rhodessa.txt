@@ -1,0 +1,15 @@
+state={
+	id=545
+	name="STATE_545"
+	provinces={
+		1874 2151 4851 
+	}
+	history = {
+		owner = SAF
+		add_core_of = RHO
+	}
+	manpower=1171336
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=3.000
+}

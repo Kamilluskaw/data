@@ -1,0 +1,15 @@
+state={
+	id=903
+	name="STATE_903"
+	provinces={
+		8133 11014 12927 
+	}
+	history = {
+		owner = ENG
+		add_core_of = SOM
+	}
+	manpower=610560
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

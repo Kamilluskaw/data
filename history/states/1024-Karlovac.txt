@@ -1,0 +1,15 @@
+state={
+	id=1024
+	name="Karlovac"
+	provinces={
+		3592 3596 3601 6614 
+	}
+	History={
+		owner=YUG
+		add_core_of = CRO
+	}
+	manpower=321111
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

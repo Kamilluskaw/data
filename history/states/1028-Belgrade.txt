@@ -1,0 +1,15 @@
+state={
+	id=1028
+	name="Belgrade"
+	provinces={
+		3614 11580 11586 
+	}
+	history = {
+		owner=SER
+		add_core_of = SER
+	}
+	manpower=1742142
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

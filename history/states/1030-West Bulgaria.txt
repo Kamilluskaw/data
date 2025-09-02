@@ -1,0 +1,17 @@
+state={
+	id=1030
+	name="Western Bulgaria"
+	provinces={
+		630 9602 9756 11887 
+	}
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		add_claim_by = SER
+		add_core_of = YUG
+	}
+	manpower=231231
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

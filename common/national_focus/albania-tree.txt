@@ -1,0 +1,155 @@
+focus_tree = {
+	id = albanian_focus
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ALB
+		}
+	}
+	#Riding the Wave
+	focus = {
+		id = ALB_riding_the_wave
+		icon = GFX_goal_unknown
+		x = 3
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Fund the MPO
+	focus = {
+		id = ALB_fund_the_mpo
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Coarse Zagreb
+	focus = {
+		id = ALB_coarse_zagreb
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Ask for support from Italy
+	focus = {
+		id = ALB_ask_for_support_from_italy
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Recognise the Slovenian Soviet Uprising
+	focus = {
+		id = ALB_recognise_the_slovenian_soviet_uprising
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Railways to Greece
+	focus = {
+		id = ALB_railways_to_greece
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Envoy to Paris
+	focus = {
+		id = ALB_envoy_to_paris
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Borrow the Crown's Gold
+	focus = {
+		id = ALB_borrowthecrownsgold
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#The Sack of Belgrad
+	focus = {
+		id = ALB_the_sack_of_belgrad
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Unification with Kosova
+	focus = {
+		id = ALB_unification_with_kosova
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Disband the Anti-Serb Front
+	focus = {
+		id = ALB_disband_the_antiserb_front
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Rebuild Tirana
+	focus = {
+		id = ALB_rebuild_tirana
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+}

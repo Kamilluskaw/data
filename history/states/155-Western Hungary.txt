@@ -1,0 +1,16 @@
+state={
+	id=155
+	name="Alpokalja"
+	resources={
+		aluminium=40.000
+	}
+	provinces={
+		686 3683 6720 11627 13125 
+	}
+	History={
+    	owner= CYM}
+	manpower=1465070
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

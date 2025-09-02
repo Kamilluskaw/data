@@ -1,0 +1,14 @@
+state={
+	id=1021
+	name="Csongrád"
+	provinces={
+		679 6700 
+	}
+	History={
+    	owner= CSM}
+	manpower=432432
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+		state_category=town
+
+}

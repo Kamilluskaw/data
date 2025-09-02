@@ -1,0 +1,85 @@
+bookmarks = {
+	bookmark = {
+		name = "The Second Paris Conference"
+		desc = "After the fall of the Unified Workers of Europe the world is once again about to embrace a Post-Parisian universe."
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "FRA"
+		default = yes
+
+		"FRA"={
+			history = "At its core the III.French Republic has emerged as the Grand Victor of the 3rd European Great War"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+				FRA_the_eagle_that_sored
+			}
+		}
+		"ITA"={
+			history = "Italia, the greatest ally of France in modern times has sided with their brothers in Paris to defeat the Germans and the Hungarians once more! On the controrary the Italian Republic has been fading into Mussolinis totalist governing, which might end of sidetracking him from the European Reality."
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"SOV"={
+			history = "The once scary bear has lost all its glory during their civilwar, even though the Whites won in the end the Romanovs are still long gone."
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"ENG"={
+			history = "The Crown lost its podium, Britain is lost, probably for foverer. The empire collapsed and all we own is a sliver of our African holdings. The dominions sidetracked, France and Italy never came to help us."
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"BRX"={
+			history = "The Revolution against the crown emerged in our favour, the Republic of Britain was founded as a confederacy of the people's of the Isle."
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors
+		"ALB"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		624 3627 9595 11594 
+	}
+	History={
+		owner=CRO
+	}
+	manpower=2224400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

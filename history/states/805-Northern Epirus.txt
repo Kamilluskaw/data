@@ -1,0 +1,15 @@
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		3448 3884 9914 13234 13255 
+	}
+	history = {
+		owner = ALB
+		add_core_of = ALB
+	}
+	manpower=262200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

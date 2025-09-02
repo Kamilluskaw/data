@@ -1,0 +1,129 @@
+focus_tree = {
+	id = bosnia
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOS
+		}
+	}
+	#The Heart of Slavia
+	focus = {
+		id = BOS_the_heart_of_slavia
+		icon = GFX_goal_unknown
+		x = 3
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#The Caucus for devolution
+	focus = {
+		id = BOS_the_caucus_for_devolution
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BOS_the_heart_of_slavia  }
+		mutually_exclusive = { focus = BOS_no_more_spreska  }
+	}
+
+	#United by Division
+	focus = {
+		id = BOS_united_by_division
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BOS_the_caucus_for_devolution  }
+	}
+
+	#No more Spreska
+	focus = {
+		id = BOS_no_more_spreska
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BOS_the_heart_of_slavia  }
+		mutually_exclusive = { focus = BOS_the_caucus_for_devolution  }
+	}
+
+	#Alongside our Brothers
+	focus = {
+		id = BOS_alongside_our_brothers
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BOS_the_caucus_for_devolution  }
+	}
+
+	#Devour Slavonia
+	focus = {
+		id = BOS_devour_slavonia
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BOS_no_more_spreska  }
+	}
+
+	#Enter Vojvodina
+	focus = {
+		id = BOS_enter_vojvodina
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BOS_no_more_spreska  }
+	}
+
+	#Newslavia
+	focus = {
+		id = BOS_newslavia
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BOS_devour_slavonia  } prerequisite = { focus = BOS_enter_vojvodina  }
+	}
+
+	#Third Way
+	focus = {
+		id = BOS_third_way
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BOS_united_by_division  } prerequisite = { focus = BOS_alongside_our_brothers  }
+	}
+
+}

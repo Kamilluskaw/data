@@ -1,0 +1,18 @@
+state={
+	id=43
+	name="Észak-Magyarország"
+	resources={
+		steel=6.000
+		aluminium=40.000
+	}
+	History={
+    	owner= SLO
+    	add_core_of = HUN}
+	provinces={
+		3713 3731 6751 3565 6573 9537
+	}
+	manpower=3750752
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

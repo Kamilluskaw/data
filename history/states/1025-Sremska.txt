@@ -1,0 +1,16 @@
+state={
+	id=1025
+	name="Sremska"
+	provinces={
+		6647 11577 
+	}
+	history = {
+		owner = CRO
+		add_core_of = CRO
+		add_claim_by = SER
+	}
+	state_category = pastoral
+	manpower=214311
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

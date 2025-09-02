@@ -1,0 +1,350 @@
+focus_tree = {
+	id = french_focus
+	continuous_focus_position = { x = 2050 y = 10 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	#The Eagle that SORED
+	focus = {
+		id = FRA_the_eagle_that_sored
+		icon = GFX_focus_fra_le_deluge
+		x = 2
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			puppet = LUX
+			dismantle_faction = TRUE
+		}
+		prerequisite = { focus = FRA_the_sofiaparis_concord  } prerequisite = { focus = FRA_isolate_the_crown  } prerequisite = { focus = FRA_counter_moscow  } prerequisite = { focus = FRA_bribe_mussolini  } prerequisite = { focus = FRA_the_natural_borders_of_france  }
+	}
+
+	#The 2nd Continental System
+	focus = {
+		id = FRA_the_2nd_continental_system
+		icon = GFX_focus_usa_focus_on_europe
+		x = 0
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			create_faction = "Continental System"
+			add_to_faction = ITA
+			add_to_faction = BUL
+			add_to_faction = TUR
+			add_to_faction = CZE
+
+		}
+		prerequisite = { focus = FRA_the_eagle_that_sored  }
+		mutually_exclusive = { focus = FRA_a_collapsing_order  }
+	}
+
+	#Germany, ger many
+	focus = {
+		id = FRA_germanygermany
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 0
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			58={
+				set_demilitarized_zone = FALSE
+			}
+			50={
+				set_demilitarized_zone = FALSE
+			}
+			MEK={
+				set_state_owner = 61
+			}
+			HES={
+				set_state_owner = 55
+			}
+			THU={
+				set_state_owner = 60
+			}
+			DDR={
+				set_state_owner = 54
+				set_state_owner = 50
+			}
+			HAN={
+				set_state_owner = 59
+				set_state_owner = 56
+				set_state_owner = 57
+			}
+			BAY={
+				set_state_owner = 53
+			}
+			DEN={
+				set_state_owner = 58
+				
+			}
+
+			SWE={
+				set_state_owner = 62
+			}
+			GER ={
+				dismantle_faction = TRUE
+			}
+		}
+		prerequisite = { focus = FRA_begin_the_2nd_paris_conference  }
+	}
+
+	#Begin the 2nd Paris Conference
+	focus = {
+		id = FRA_begin_the_2nd_paris_conference
+		icon = GFX_focus_fra_french_union
+		x = 2
+		y = 2
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 150
+
+		}
+		prerequisite = { focus = FRA_end_the_algerian_rebellion  } prerequisite = { focus = FRA_light_the_fire  }
+	}
+
+	#Free the Middle East
+	focus = {
+		id = FRA_free_the_middle_east
+		icon = GFX_goal_generic_forceful_treaty
+		x = 2
+		y = 3
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		}
+		prerequisite = { focus = FRA_begin_the_2nd_paris_conference  }
+	}
+
+	#Enter the Yugoslavian Collapse
+	focus = {
+		id = FRA_enter_the_yugoslavian_collapse
+		icon = GFX_FRA_enter_the_yugoslavian_collapse-336
+		x = 4
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = ALB
+			}
+			declare_war_on = {
+				target = SER
+			}
+			add_to_faction = YUG
+		}
+		prerequisite = { focus = FRA_begin_the_2nd_paris_conference  }
+	}
+
+	#The Sofia-Paris Concord
+	focus = {
+		id = FRA_the_sofiaparis_concord
+		icon = GFX_focus_generic_befriend_bulgaria
+		x = 3
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			BUL ={
+				
+				add_stability = 0.2
+				add_political_power = 50
+			}
+		}
+		prerequisite = { focus = FRA_begin_the_2nd_paris_conference  }
+	}
+
+	#Isolate the Crown
+	focus = {
+		id = FRA_isolate_the_crown
+		icon = GFX_focus_hun_elect_a_king
+		x = 1
+		y = 4
+		cost = 2
+				ai_will_do = {
+			factor = 90
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			CYM={
+				leave_faction = YES
+			}
+		}
+		prerequisite = { focus = FRA_begin_the_2nd_paris_conference  }
+	}
+
+	#Counter Moscow
+	focus = {
+		id = FRA_counter_moscow
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		x = 2
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		}
+		prerequisite = { focus = FRA_free_the_middle_east  }
+	}
+
+	#Bribe Mussolini
+	focus = {
+		id = FRA_bribe_mussolini
+		icon = GFX_focus_ger_assassinate_mussolini
+		x = 0
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		}
+		prerequisite = { focus = FRA_germanygermany  }
+	}
+
+	#The Natural Borders of France
+	focus = {
+		id = FRA_the_natural_borders_of_france
+		icon = GFX_focus_focus_fra_border
+		x = 4
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		}
+		prerequisite = { focus = FRA_enter_the_yugoslavian_collapse  }
+	}
+
+	#A Collapsing Order
+	focus = {
+		id = FRA_a_collapsing_order
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		x = 4
+		y = 7
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		}
+		prerequisite = { focus = FRA_the_eagle_that_sored  }
+		mutually_exclusive = { focus = FRA_the_2nd_continental_system  }
+	}
+
+	#Another day in Europa
+	focus = {
+		id = FRA_another_day_in_europa
+		icon = GFX_focus_eng_special_air_service
+		x = 0
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		}
+		prerequisite = { focus = FRA_the_2nd_continental_system  }
+	}
+
+	#A coming change
+	focus = {
+		id = FRA_a_coming_change
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 4
+		y = 8
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		}
+		prerequisite = { focus = FRA_a_collapsing_order  }
+	}
+
+	#A French Century
+	focus = {
+		id = FRA_a_french_century
+		icon = GFX_focus_focus_fra_third_empire
+		x = 2
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+		}
+	}
+
+	#End the Algerian Rebellion
+	focus = {
+		id = FRA_end_the_algerian_rebellion
+		icon = GFX_focus_focus_fra_fascist_threat
+		x = 1
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		select_effect = {
+		459 = {add_core_of = FRA}
+		}
+		completion_reward = {
+						create_wargoal = {
+				target = ALG
+				type = annex_everything
+			}
+		}
+		prerequisite = { focus = FRA_a_french_century  }
+	}
+
+	#Light the Fire
+	focus = {
+		id = FRA_light_the_fire
+		icon = GFX_focus_generic_aegean_sea_focus
+		x = 3
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			CLM={
+				create_wargoal = {
+					target = GRE
+					type = annex_everything
+				}
+			}
+		}
+		prerequisite = { focus = FRA_a_french_century  }
+	}
+
+}

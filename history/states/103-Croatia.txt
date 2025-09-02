@@ -1,0 +1,16 @@
+state={
+	id=103
+	name="STATE_103"
+	provinces={
+		591 984 3868 3924 3974 6611 6889 11816 11901 13252 
+	}
+	history = {
+		add_core_of = YUG
+		add_core_of = CRO
+		owner = ITA
+	}
+	manpower=1431700
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=4.000
+}

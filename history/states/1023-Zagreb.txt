@@ -1,0 +1,16 @@
+state={
+	id=1023
+	name="Zagreb"
+	provinces={
+		9611 11581 
+	}
+	history = {
+		owner = CZM
+		add_core_of = CZM
+		add_core_of = CRO
+	}
+	manpower=953252
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

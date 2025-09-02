@@ -1,0 +1,15 @@
+state={
+	id=1031
+	name="Illyria"
+	provinces={
+		3896 9780 
+	}
+	history = {
+		owner = YUG
+		add_core_of = ALB
+	}
+	state_category = rural
+	manpower=21222
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=104
+	name="STATE_104"
+	resources={
+		aluminium=7.000
+	}
+	provinces={
+		6799 9922 11572 11741 11872 11899 
+	}
+	History={
+		owner=BOS
+	}
+	manpower=1910200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=7.000
+}

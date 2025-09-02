@@ -1,0 +1,15 @@
+state={
+	id=981
+	name="STATE_981"
+	resources={
+		chromium=16.000
+		tungsten=4.000
+	}
+	provinces={
+		697 5199 7872 10538 12504 12677 
+	}
+	manpower=690043
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
