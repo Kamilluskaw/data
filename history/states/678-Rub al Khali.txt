@@ -4,6 +4,10 @@ state={
 	provinces={
 		4932 8108 10791 
 	}
+	history = {
+		owner = SAU
+		add_core_of = SAU
+	}
 	manpower=42
 	buildings_max_level_factor=1.000
 	state_category=wasteland

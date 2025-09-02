@@ -5,6 +5,10 @@ state={
 		chromium=16.000
 		tungsten=4.000
 	}
+		history = {
+		owner = BAR
+		add_core_of = BAR
+	}
 	provinces={
 		697 5199 7872 10538 12504 12677 
 	}
