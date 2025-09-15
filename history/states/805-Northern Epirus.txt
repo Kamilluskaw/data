@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = ALB
 		add_core_of = ALB
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+            dockyard = 1
+        }
 	}
 	manpower=262200
 	buildings_max_level_factor=1.000

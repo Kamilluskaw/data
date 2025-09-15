@@ -28,9 +28,54 @@ units = {
 		location = 9914
 		division_template = "Këmbësori Pjesëtim"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
+    division = { # "I Këmbësori Pjesëtim"
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        location = 13234
+        division_template = "Këmbësori Pjesëtim"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+
+    }
+    division = { # "I Këmbësori Pjesëtim"
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+        location = 11741
+        division_template = "Këmbësori Pjesëtim"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+
+    }
+
+    division = { # "I Këmbësori Pjesëtim"
+        division_name = {
+            is_name_ordered = yes
+            name_order = 4
+        }
+        location = 11762
+        division_template = "Këmbësori Pjesëtim"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.9
+
+    }
+    division = { # "I Këmbësori Pjesëtim"
+        division_name = {
+            is_name_ordered = yes
+            name_order = 5
+        }
+        location = 833
+        division_template = "Këmbësori Pjesëtim"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+
+    }
 }
 
 ### Starting Production ###

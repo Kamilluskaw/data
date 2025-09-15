@@ -7,6 +7,10 @@ state={
 	provinces={
 		7959 8006 
 	}
+    history = {
+        owner = FRA
+        add_core_of = LIB
+    }
 	manpower=745000
 	buildings_max_level_factor=1.000
 	state_category=rural

@@ -77,7 +77,16 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 100
+    #republicans52
+	neutrality = 30
+    liberalism = 9
+    socialism = 6
+    authoritarianism = 7
+    #nationals48
+    fascism = 6
+    libertarianism = 2
+    authoritarianism = 30
+    monarchism = 10
 }
 
 create_country_leader = {

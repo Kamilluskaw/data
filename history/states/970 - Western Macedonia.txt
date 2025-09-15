@@ -10,7 +10,12 @@ state={
 	}
 	history = {
 		owner = ALB
-		add_core_of = ALB }
+		add_core_of = ALB
+    buildings = {
+        infrastructure = 2
+        arms_factory = 1
+    }
+    }
 	manpower=343550
 	buildings_max_level_factor=1.000
 	state_category=pastoral

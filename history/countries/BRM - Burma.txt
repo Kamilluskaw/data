@@ -11,7 +11,6 @@ set_technology = {
 
 set_convoys = 5
 
-set_cosmetic_tag = BRM_british # Gets them the correct starting flag
 
 recruit_character = BRM_acgs
 recruit_character = BRM_acr
@@ -75,16 +74,16 @@ recruit_character = BRM_fascist_guy
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 72
+	democratic = 12
 	fascism = 2
 	communism = 14
-	neutrality = 12
+	neutrality = 72
 }
 
 recruit_character = BRM_archibald_cochrane

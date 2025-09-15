@@ -12,12 +12,12 @@ state={
 		victory_points = {
 			12763 3
 		}
-		owner = RAJ
+		owner = AFG
 		buildings = {
 			infrastructure = 1
 			air_base = 1
 		}
-		add_core_of = NWF
+		add_core_of = AFG
 		add_core_of = PAK
 		add_core_of = KHL
 	}

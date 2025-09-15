@@ -1,0 +1,247 @@
+add_namespace = afg_events
+
+country_event = {
+    id = afg_events.1
+    title = afg_events.1.t
+    desc = afg_events.1.desc
+    picture = GFX_report_news_generic_lectern
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.1.a
+        ai_chance = { factor = 60 }
+    }
+    option = {
+        name = afg_events.1.b
+        ai_chance = { factor = 40 }
+    }
+}
+country_event = {
+    id = afg_events.2
+    title = afg_events.2.t
+    desc = afg_events.2.desc
+    picture = GFX_report_news_generic_soldiers_marching
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.2.a
+        ai_chance = { factor = 50 }
+    }
+    option = {
+        name = afg_events.2.b
+        ai_chance = { factor = 50 }
+    }
+}
+country_event = {
+    id = afg_events.3
+    title = afg_events.3.t
+    desc = afg_events.3.desc
+    picture = GFX_report_news_generic_crowd
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.3.a
+        ai_chance = { factor = 70 }
+    }
+    option = {
+        name = afg_events.3.b
+        ai_chance = { factor = 30 }
+    }
+}
+country_event = {
+    id = afg_events.4
+    title = afg_events.4.t
+    desc = afg_events.4.desc
+    picture = GFX_report_news_generic_tanks_parade
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.4.a
+        ai_chance = { factor = 40 }
+    }
+    option = {
+        name = afg_events.4.b
+        ai_chance = { factor = 60 }
+    }
+}
+country_event = {
+    id = afg_events.5
+    title = afg_events.5.t
+    desc = afg_events.5.desc
+    picture = GFX_report_news_generic_factory
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.5.a
+        ai_chance = { factor = 50 }
+    }
+    option = {
+        name = afg_events.5.b
+        ai_chance = { factor = 50 }
+    }
+}
+country_event = {
+    id = afg_events.6
+    title = afg_events.6.t
+    desc = afg_events.6.desc
+    picture = GFX_report_news_generic_map
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.6.a
+        ai_chance = { factor = 30 }
+    }
+    option = {
+        name = afg_events.6.b
+        ai_chance = { factor = 70 }
+    }
+}
+country_event = {
+    id = afg_events.7
+    title = afg_events.7.t
+    desc = afg_events.7.desc
+    picture = GFX_report_news_generic_soldiers_train
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.7.a
+        ai_chance = { factor = 80 }
+    }
+    option = {
+        name = afg_events.7.b
+        ai_chance = { factor = 20 }
+    }
+}
+country_event = {
+    id = afg_events.8
+    title = afg_events.8.t
+    desc = afg_events.8.desc
+    picture = GFX_report_news_generic_capitol
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.8.a
+        ai_chance = { factor = 65 }
+    }
+    option = {
+        name = afg_events.8.b
+        ai_chance = { factor = 35 }
+    }
+}
+country_event = {
+    id = afg_events.9
+    title = afg_events.9.t
+    desc = afg_events.9.desc
+    picture = GFX_report_news_generic_trucks
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.9.a
+        ai_chance = { factor = 90 }
+    }
+    option = {
+        name = afg_events.9.b
+        ai_chance = { factor = 10 }
+    }
+}
+country_event = {
+    id = afg_events.10
+    title = afg_events.10.t
+    desc = afg_events.10.desc
+    picture = GFX_report_news_border_incident
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.10.a
+        ai_chance = { factor = 20 }
+    }
+    option = {
+        name = afg_events.10.b
+        ai_chance = { factor = 80 }
+    }
+}
+
+country_event = {
+    id = afg_events.11
+    title = afg_events.11.t
+    desc = afg_events.11.desc
+    picture = GFX_report_news_generic_mountain
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.11.a
+        ai_chance = { factor = 50 }
+    }
+    option = {
+        name = afg_events.11.b
+        ai_chance = { factor = 50 }
+    }
+}
+country_event = {
+    id = afg_events.12
+    title = afg_events.12.t
+    desc = afg_events.12.desc
+    picture = GFX_report_news_league_of_nations
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.12.a
+        ai_chance = { factor = 75 }
+    }
+    option = {
+        name = afg_events.12.b
+        ai_chance = { factor = 25 }
+    }
+}
+country_event = {
+    id = afg_events.13
+    title = afg_events.13.t
+    desc = afg_events.13.desc
+    picture = GFX_report_news_generic_king
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.13.a
+        ai_chance = { factor = 33 }
+    }
+    option = {
+        name = afg_events.13.b
+        ai_chance = { factor = 33 }
+    }
+    option = {
+        name = afg_events.13.c
+        ai_chance = { factor = 34 }
+    }
+}
+country_event = {
+    id = afg_events.14
+    title = afg_events.14.t
+    desc = afg_events.14.desc
+    picture = GFX_report_news_generic_oil_wells
+    is_triggered_only = yes
+
+    option = {
+        name = afg_events.14.a
+        ai_chance = { factor = 100 }
+    }
+}
+    country_event = {
+        id = afg_events.15
+        title = afg_events.15.t
+        desc = afg_events.15.desc
+        picture = GFX_report_news_generic_spy
+        is_triggered_only = yes
+
+        option = {
+            name = afg_events.15.a
+            ai_chance = { factor = 40 }
+        }
+        option = {
+            name = afg_events.15.b
+            ai_chance = { factor = 40 }
+        }
+        option = {
+            name = afg_events.15.c
+            ai_chance = { factor = 20 }
+        }
+    }

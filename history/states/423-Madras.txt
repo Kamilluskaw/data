@@ -7,6 +7,10 @@ state={
 	provinces={
 		1268 1381 4327 4416 4420 7265 7436 8067 10246 10278 10808 12164 
 	}
+			history = {
+		owner = FRA
+		add_core_of = RAJ
+	}
 	manpower=24993300
 	buildings_max_level_factor=1.000
 	state_category=rural

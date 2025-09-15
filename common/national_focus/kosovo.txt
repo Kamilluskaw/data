@@ -18,6 +18,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+        completion_reward = {
+            add_manpower = 150000
+        }
 		prerequisite = { focus = KOS_under_albania  }
 	}
 
@@ -31,7 +34,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+        available= {has_war = no}
 		prerequisite = { focus = KOS_burn_down_belgrade  focus = KOS_against_the_swarm  }
+        completion_reward={
+         1029={   transfer_state_to = KOS
+        }}
 	}
 
 	#Against the Swarm
@@ -44,6 +51,19 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+        completion_reward = {
+            add_temporary_buff_to_units = {
+                combat_offense = 0.95
+                combat_breakthrough = 0.25
+                org_damage_multiplier = -1.0
+                str_damage_multiplier = 0.25
+                war_support_reduction_on_damage = 0.2
+                cannot_retreat_while_attacking = 1.0
+
+                days = 50
+                tooltip = ABILITY_FORCE_ATTACK_TOOLTIP
+            }
+        }
 		prerequisite = { focus = KOS_maybeyugoslavia  }
 	}
 
@@ -53,10 +73,18 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 0
-		cost = 2
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+
+        select_effect = {
+            leave_faction = Yes
+        }
+        completion_reward = {
+            add_stability = 0.1
+
+        }
 		mutually_exclusive = { focus = KOS_under_albania  }
 	}
 
@@ -66,10 +94,19 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 3
 		y = 0
-		cost = 2
+		cost = 1
+
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+        select_effect = {
+           ALB ={
+               puppet = KOS
+           }
+        }
+        completion_reward = {
+            add_political_power = 100
+        }
 	}
 
 	#Maybe Yugoslavia?
@@ -79,9 +116,14 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 2
+        available ={
+            neutrality > 0.5
+        }
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+        completion_reward ={ YUG ={ puppet=KOS}}
+
 		prerequisite = { focus = KOS_the_final_stand_of_pristina  }
 	}
 
@@ -95,6 +137,23 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+        available ={
+           1028={ is_controlled_by = KOS}
+        }
+        bypass={has_war = no}
+        completion_reward ={
+            add_offsite_building = { type = arms_factory level = 2 }
+            damage_building = {
+                type = infrastructure
+                state = 1028
+                damage = 3
+            }
+            damage_building = {
+                type = arms_factory
+                state = 1028
+                damage = 2
+            }
+            }
 		prerequisite = { focus = KOS_migration_treaties_with_bulgaria  }
 	}
 
@@ -108,6 +167,21 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+        select_effect = {
+        add_stability = 0.1
+        }
+        completion_reward = {
+
+            add_popularity = {
+                ideology = neutrality
+                popularity = 0.1
+            }
+            uncomplete_national_focus = {
+                focus = KOS_the_shade_within
+                uncomplete_children = yes
+                refund_political_power = no
+            }
+        }
 		prerequisite = { focus = KOS_under_albania  focus = KOS_the_final_stand_of_pristina  }
 	}
 

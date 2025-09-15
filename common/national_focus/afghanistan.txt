@@ -1,0 +1,413 @@
+focus_tree = {
+	id = afghanistan
+	continuous_focus_position = { x = 1240 y = 270 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AFG
+		}
+	}
+	#Past the point of no return
+	focus = {
+		id = AFG_past_the_point_of_no_return
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        available={}
+        mutally_exclusive={focus=AFG_coming_down }
+        select_effect ={
+            442={set_demilitarized_zone = yes}
+        }
+		prerequisite = { focus = AFG_ithappenseverytime  }
+	}
+    focus = {
+        id = AFG_the_last_check
+        icon = GFX_goal_unknown
+        x = 4
+        y = 2
+        cost = 3
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        select_effect ={
+            988={set_demilitarized_zone = yes}
+        }
+        prerequisite = { focus = AFG_past_the_point_of_no_return  }
+    }
+    focus = {
+        id = AFG_another_high
+        icon = GFX_goal_unknown
+        x = 6
+        y = 3
+        cost = 3
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        select_effect ={
+            1005={set_demilitarized_zone = yes}
+        }
+        prerequisite = { focus = AFG_the_last_check  }
+    }
+    focus = {
+        id = AFG_continue_the_fight
+        icon = GFX_goal_unknown
+        x = 2
+        y = 3
+        cost = 3
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        select_effect ={
+            1009={set_demilitarized_zone = yes}
+        }
+        prerequisite = { focus = AFG_the_last_check  }
+    }
+
+	#Coming down
+	focus = {
+		id = AFG_coming_down
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        mutually_exclusive={focus= AFG_feeling_the_speed}
+        select_effect ={
+            442={set_demilitarized_zone = yes}
+        }
+		prerequisite = { focus = AFG_ithappenseverytime  }
+	}
+
+	#Feeling the speed
+	focus = {
+		id = AFG_feeling_the_speed
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+        mutually_exclusive={focus=AFG_past_the_point_of_no_return }
+        select_effect ={
+            442={set_demilitarized_zone = yes}
+        }
+        completion_reward={
+            country_event =afg_events.1
+        }
+		prerequisite = { focus = AFG_ithappenseverytime  }
+	}
+
+	#It happens everytime,,,
+	focus = {
+		id = AFG_ithappenseverytime
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        completion_reward={
+            country_event =afg_events.1
+        }
+        select_effect ={
+            415={set_demilitarized_zone = yes}
+        }
+	}
+
+	#It had to happen
+	focus = {
+		id = AFG_it_had_to_happen
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_fading_echoes  }
+	}
+
+	#Voices running
+	focus = {
+		id = AFG_voices_running
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = ,
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_coming_down  }
+	}
+
+	#Totally not
+	focus = {
+		id = AFG_totally_not
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_feeling_the_speed  }
+	}
+
+	#Fading echoes
+	focus = {
+		id = AFG_fading_echoes
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_voices_running  }
+	}
+
+	#As it comes,,,
+	focus = {
+		id = AFG_asitcomes
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_totally_not  }
+	}
+
+	#The Wind will bloom
+	focus = {
+		id = AFG_the_wind_will_bloom
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_let_it_go  }
+	}
+
+	#Crashing between
+	focus = {
+		id = AFG_crashing_between
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_asitcomes  }
+	}
+
+	#It won't stop
+	focus = {
+		id = AFG_itwontstop
+		icon = GFX_goal_unknown
+		x = 1
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_it_had_to_happen  }
+	}
+
+	#Collapsing world
+	focus = {
+		id = AFG_collapsing_world
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_crashing_between  }
+	}
+
+	#The stains will remain
+	focus = {
+		id = AFG_the_stains_will_remain
+		icon = GFX_goal_unknown
+		x = 4
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        prerequisite = { focus = AFG_a_canvas_to_be_painted  focus = AFG_with_blood  }
+
+        select_effect ={
+
+        }
+	}
+
+	#A canvas to be painted
+	focus = {
+		id = AFG_a_canvas_to_be_painted
+		icon = GFX_goal_unknown
+		x = 3
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_the_world_will_spin  focus = AFG_the_wind_will_bloom  }
+	}
+
+	#with blood
+	focus = {
+		id = AFG_with_blood
+		icon = GFX_goal_unknown
+		x = 5
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_the_wind_will_bloom  focus = AFG_time_will_go_on  }
+	}
+
+	#The World will spin
+	focus = {
+		id = AFG_the_world_will_spin
+		icon = GFX_goal_unknown
+		x = 2
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_itwontstop  }
+	}
+
+	#Time will go on
+	focus = {
+		id = AFG_time_will_go_on
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect ={
+
+        }
+		prerequisite = { focus = AFG_collapsing_world  }
+	}
+    focus = {
+        id = AFG_let_it_go
+        icon = GFX_goal_unknown
+        x = 4
+        y = 4
+        cost = 3
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        select_effect ={
+            start_civil_war = {
+                ruling_party = democratic
+                ideology = ROOT
+                # Breakaway gets old ideology of ROOT
+                size = 0.8
+                capital = 415
+                states = {
+                    415
+                }
+                keep_political_leader = yes
+                keep_political_party_members = yes
+            }
+            start_civil_war = {
+                ruling_party = conservativism
+                # Original country's ideology changes to communism
+                ideology = ROOT
+                # Breakaway gets old ideology of ROOT
+                size = 0.8
+                capital = 1009
+                states = {
+                    988 1009
+                }
+
+                keep_political_leader = yes
+                keep_political_party_members = yes
+            }
+            start_civil_war = {
+                ruling_party = post_left
+                # Original country's ideology changes to communism
+                ideology = ROOT
+                # Breakaway gets old ideology of ROOT
+                size = 0.8
+                capital = 442
+                states = {
+                    442
+                }
+
+                keep_political_leader = yes
+                keep_political_party_members = yes
+            }
+            TAJ = {
+                transfer_state = 1005
+            }
+            TAJ={ declare_war_on = {
+                target = AFG
+                type = puppet
+            }
+            }
+            }
+            prerequisite = { focus = AFG_continue_the_fight focus = AFG_another_high  }
+        }
+
+}

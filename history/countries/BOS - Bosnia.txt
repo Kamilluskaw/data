@@ -1,7 +1,7 @@
 ﻿capital = 104
 
 set_research_slots = 3
-
+oob = "BOS_1936"
 # Starting tech
 # clone of Yugoslavia
 set_technology = {

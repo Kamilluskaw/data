@@ -73,9 +73,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 50
-	fascism = 3
-	communism = 47
+	anarchism = 48
+    post_left = 2
+	neutrality = 3
+	communism = 27
+    socialism = 20
 }
 
 recruit_character = CAT_lluis_companys

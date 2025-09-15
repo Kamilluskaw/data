@@ -441,10 +441,17 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 49
-	fascism = 11
-	neutrality = 35
-	communism = 5
+    #government42
+    democratic = 20
+    conservativism = 15
+    liberalism = 7
+    #opposition32
+    communism = 11
+    socialism = 5
+    authoritarianism =16
+    #thirdway26
+    fascism = 17
+    monarchism = 9
 }
 
 add_ideas = {

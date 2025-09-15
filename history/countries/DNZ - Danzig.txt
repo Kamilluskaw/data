@@ -88,15 +88,17 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarianism
 	last_election = "1935.4.7"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = { #popularities based on 1933 election statistics.
-	fascism = 38
-	neutrality = 62
+	authoritarianism = 38
+	neutrality = 22
+    fascism = 32
+    libertarianism = 8
 }
 
 create_country_leader = {

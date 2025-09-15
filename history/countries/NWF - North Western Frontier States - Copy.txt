@@ -1,4 +1,5 @@
-﻿capital = 442 
+﻿capital = 442
+oob = "NWF_1936"
 
 
 set_research_slots = 3
@@ -19,5 +20,9 @@ set_popularities = {
 	neutrality = 60
 	fascism = 5
 }
-
+add_ideas = {
+    limited_exports
+    extensive_conscription
+    war_economy
+}
 
