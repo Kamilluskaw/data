@@ -28,7 +28,7 @@ IF = {
 		set_war_support = 0.8
 	}
 }
-
+puppet=EGY
 
 # Starting tech
 set_technology = {

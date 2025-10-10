@@ -16,6 +16,14 @@ state = {
 		victory_points = {
 			4425 1 
 		}
+        1935.10.25 = {
+            BRM = {
+                set_province_controller = 4318
+                set_province_controller = 8063
+                set_province_controller = 10486
+
+            }
+        }
 	}
 
 	provinces={

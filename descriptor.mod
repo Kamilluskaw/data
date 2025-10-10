@@ -8,4 +8,4 @@ tags={
 	"Technologies"
 }
 name="Disgraced Archangels"
-supported_version="1.16.9"
+supported_version="1.16.10"

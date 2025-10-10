@@ -170,8 +170,14 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+declare_war_on = {
+    target = ORQ
+    type= take_core_state
+}
 set_popularities = {
-	communism = 100
+	communism = 79
+    socialism = 16
+    anarchism = 5
 }
 
 add_ideas = {

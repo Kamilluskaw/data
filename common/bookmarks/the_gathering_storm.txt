@@ -19,7 +19,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "Italia, the greatest ally of France in modern times has sided with their brothers in Paris to defeat the Germans and the Hungarians once more! On the controrary the Italian Republic has been fading into Mussolinis totalist governing, which might end of sidetracking him from the European Reality."
-			ideology = communism
+			ideology = fascism
 			ideas = {
 
 			}
@@ -40,7 +40,7 @@ bookmarks = {
 		}
 		"ENG"={
 			history = "The Crown lost its podium, Britain is lost, probably for foverer. The empire collapsed and all we own is a sliver of our African holdings. The dominions sidetracked, France and Italy never came to help us."
-			ideology = neutrality
+			ideology = monarchism
 			ideas = {
 
 			}
@@ -50,7 +50,7 @@ bookmarks = {
 		}
 		"BRX"={
 			history = "The Revolution against the crown emerged in our favour, the Republic of Britain was founded as a confederacy of the people's of the Isle."
-			ideology = democratic
+			ideology = communism
 			ideas = {
 
 			}
@@ -59,16 +59,23 @@ bookmarks = {
 			}
 		}
 
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
+        "ALG"={
+            history = "The People's Revolution of Algiers,,,"
+            ideology = anarchism
+            ideas = {
+
+            }
+            focuses = {
+
+            }
+        }
 
 
 		# minors
 		"ALB"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = monarchism
 			ideas = {
 
 			}
@@ -76,6 +83,9 @@ bookmarks = {
 
 			}
 		}
+        "---"={
+            history = "OTHER_GATHERING_STORM_DESC"
+        }
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

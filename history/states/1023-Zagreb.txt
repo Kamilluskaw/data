@@ -8,6 +8,9 @@ state={
 		owner = CZM
 		add_core_of = CZM
 		add_core_of = CRO
+        buildings = { industrial_complex = 1
+        arms_factory = 1
+        infrastructure = 4}
 	}
 	manpower=953252
 	state_category = city

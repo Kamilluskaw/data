@@ -8,6 +8,8 @@ state={
 
 	history={
 		add_core_of = CHI
+        add_core_of = HEB
+        owner = HEB
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2

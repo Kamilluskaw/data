@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = SIK
+		owner = SKK
 		add_core_of = SKK
 		buildings = {
 			infrastructure = 1

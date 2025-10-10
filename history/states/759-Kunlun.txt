@@ -2,8 +2,16 @@ state={
 	id=759
 	name="STATE_759"
 	provinces={
-		4947 5736 10885 12864 
-	}
+		4947 5736 10885 12864 8042 8086 5016 7790
+    }
+
+    history = {
+        owner = UYQ
+        add_core_of = UYQ
+        add_claim_by = SIK
+
+    }
+    impassable = yes
 	manpower=70000
 	buildings_max_level_factor=1.000
 	state_category=wasteland

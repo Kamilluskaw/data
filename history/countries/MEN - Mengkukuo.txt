@@ -72,12 +72,12 @@ recruit_character = MEN_megata_toshiro
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = authoritarianism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 80
+	authoritarianism = 80
 	neutrality = 20
 }

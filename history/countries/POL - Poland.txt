@@ -341,7 +341,7 @@ if = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = conservativism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -358,7 +358,9 @@ set_popularities = {
 		democratic = 13
 		fascism = 7
 		communism = 2
-		neutrality = 78
+		conservativism = 58
+        neutrality = 15
+        liberalism = 5
 	}
 }
 

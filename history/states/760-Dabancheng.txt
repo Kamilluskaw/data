@@ -17,6 +17,13 @@ state={
 			infrastructure = 2
 			arms_factory = 1
 		}
+        1935.10.25 = {
+            SIK = {
+                set_province_controller = 12671
+                set_province_controller = 12598
+                set_province_controller = 7732
+            }
+        }
 	}
 
 	local_supplies=0.0 

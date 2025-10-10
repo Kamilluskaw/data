@@ -32,6 +32,16 @@ state={
 			}
 
 		}
+        1935.10.25 = {
+            ORQ = {
+                set_province_controller = 7314
+                set_province_controller = 12356
+                set_province_controller = 517
+                set_province_controller = 12156
+                set_province_controller = 7208
+                set_province_controller = 1458
+            }
+        }
 
 	}
 

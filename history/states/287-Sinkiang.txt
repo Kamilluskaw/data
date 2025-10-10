@@ -4,6 +4,21 @@ state={
 	provinces={
 		1698 1943 1970 2074 8112 10315 10911  4973
 	}
+    history = {
+        buildings = {
+            infrastructure = 1
+            arms_factory = 1
+            industrial_complex = 1
+
+        }
+        owner = TUQ
+        add_core_of = TUQ
+        add_claim_by = SIK
+        add_core_of = UYQ
+        victory_points = {
+            4973 5
+        }
+    }
 	manpower=408000
 	buildings_max_level_factor=1.000
 	state_category=wasteland

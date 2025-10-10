@@ -185,20 +185,13 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 20
-	neutrality = 30
+	fascism = 15
+	liberalism = 25
+	socialism = 20
+	neutrality = 40
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.1.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
+
 set_stability = 0.6
 
 create_country_leader = {

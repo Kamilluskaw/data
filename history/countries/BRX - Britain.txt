@@ -17,8 +17,8 @@ set_politics = {
 }
 set_popularities = {
 	communism  = 89
-	democratic = 3
-	neutrality = 8
+	socialism = 3
+	authoritarianism = 8
 }
 # Government/National Spirits
 add_ideas = {

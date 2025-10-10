@@ -191,7 +191,7 @@ set_convoys = 10
 			democratic = 10
 			fascism = 22
 			communism = 26
-			neutrality = 42
+			monarchism = 42
 		}
 		
 		create_country_leader = {
@@ -320,7 +320,7 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
@@ -329,7 +329,7 @@ set_popularities = {
 	democratic = 43
 	fascism = 2
 	communism = 17
-	neutrality = 38
+	monarchism = 38
 }
 
 set_stability = 0.72

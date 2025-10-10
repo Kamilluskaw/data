@@ -204,18 +204,7 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division = {
-		#name = "1. Konjička Divizija"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9627
-		division_template = "Konjička Divizija"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
 
-	}
 
 	#### 2. Grupa Vojska ####
 	### 1. Armija ###

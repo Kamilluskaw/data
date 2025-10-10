@@ -1276,7 +1276,7 @@ add_ideas = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -1284,13 +1284,15 @@ set_politics = {
 set_popularities = {
 	democratic = 10
 	fascism = 2
-	neutrality = 88
+	monarchism = 88
 }
 
 create_faction = "Moscow Accord"
 add_to_faction = MON
 add_to_faction = TAN
+add_to_faction = SIK
 
+puppet = SIK
 if = {
 	limit = {
 		has_dlc = "La Resistance"

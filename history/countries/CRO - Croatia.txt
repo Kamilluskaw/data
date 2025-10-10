@@ -93,9 +93,11 @@ set_politics = {
 	elections_allowed = no # none after offset 1
 }
 set_popularities = {
-	democratic = 15
-	fascism = 75
-	communism = 10
+	authoritarianism = 15
+	fascism = 55
+    communism = 5
+    conservativism = 15
+	neutrality = 10
 }
 
 recruit_character = CRO_ante_pavelic

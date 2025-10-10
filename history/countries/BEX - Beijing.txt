@@ -13,13 +13,27 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1934.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+    #kuomintang41
+	democratic = 11
+    neutrality = 13
+    liberalism = 8
+    conservativism = 9
+
+    #new kuomintang32
+    fascism = 25
+    libertarianism = 5
+    authoritarianism = 2
+
+
+    #thirdway27
+    communism = 7
+    post_left =5
+    monarchism = 2
+    anarchism = 6
+    socialism = 7
 }
 # Government/National Spirits
 add_ideas = {

@@ -77,41 +77,26 @@ set_convoys = 20
 }
 
 
-set_politics = {
-	ruling_party = communism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
 
-set_popularities = {
-	democratic = 18
-	monarchism = 27
-	authoritarianism = 2
-	communism = 53
-}
 
-1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
+		ruling_party = anarchism
+		last_election = "1935.12.13"
+		election_frequency = 1
+		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 25
-		fascism = 20
-		communism = 5
-		neutrality = 50
+    anarchism = 87
+    post_left = 10
+    communism = 3
 	}
-}
 
 create_country_leader = {
-	name = "Ahmed Ben Bella"
+	name = "Rebels of Algiers"
 	desc = ""
-	picture = GFX_portrait_Ahmed_Ben_Bella
-	ideology = despotism
+    picture = "gfx/leaders/ALG/palace.dds"
+	ideology = left_anarchism
 	traits = {
-		#
+		anarchist_zeal
 	}
 }

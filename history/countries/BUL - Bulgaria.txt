@@ -189,10 +189,14 @@ if = { #DLC
 
 	#DLC POLIICS
 	set_popularities = { #DLC
-		democratic = 10
-		fascism = 30
-		neutrality = 55
-		communism = 5
+		authoritarianism = 8
+		fascism = 22
+		monarchism = 48
+        neutrality = 10
+		socialism = 3
+        communism = 2
+        post_left = 2
+        anarchism = 5
 	}
 
 	recruit_character = BUL_boris_iii

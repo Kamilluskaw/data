@@ -6,9 +6,11 @@ state={
 	}
 	history = {
 		owner = TUR
-	}
+	set_demilitarized_zone = yes
+    }
 	manpower=363947
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
+
 }

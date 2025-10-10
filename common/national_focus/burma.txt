@@ -1,0 +1,175 @@
+focus_tree = {
+	id = burma
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BRM
+		}
+	}
+	#Protect our Homeland
+	focus = {
+		id = BRM_protect_our_homeland
+		icon = GFX_focus_AST_rats_tobruk
+		x = 1
+		y = 0
+		cost = 1
+        available = { has_war = yes}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        select_effect={
+            army_experience = 25
+            add_command_power = 25}
+        completion_reward ={
+            upgrade_economy_law = yes
+        }
+	}
+    focus = {
+        id = BRM_victory
+        icon = GFX_focus_AST_rats_tobruk
+        x = 7
+        y = 0
+        cost = 1
+        available = { has_war = yes
+            controls_state = 288
+            controls_state = 998
+            controls_state = 997
+        }
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+        select_effect ={
+            BRM = {
+                transfer_state = 998
+                transfer_state = 997
+
+            }
+
+            NWF = {
+                transfer_state = 445
+            }
+            SIN = {
+                transfer_state = 443
+            }
+            BLC = {
+                transfer_state = 444
+                transfer_state = 1012
+            }
+            MPU = {
+                transfer_state = 990
+            }
+        }
+        completion_reward={
+            dismantle_faction = yes        }
+    }
+
+    focus = {
+        id = BRM_on_the_other_side
+        icon = GFX_focus_AST_rats_tobruk
+        x = 5
+        y = 0
+        cost = 1
+        available = {
+            has_war = no
+            controls_state = 288
+            is_faction_leader=no
+        }
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        select_effect = {
+            send_embargo = SIA
+           869 = { add_claim_by =BRM}}
+            completion_reward = {
+
+                create_faction = "Burmese-Indian Axis"
+                add_to_faction = RAJ
+                BRM = {
+                    transfer_state = 998
+                }
+
+        }
+    }
+	#Partisans
+	focus = {
+        id = BRM_partisans
+        icon = GFX_focus_BUL_condemn_macedonian_organizations
+        x = 0
+        y = 1
+        cost = 1
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        available = {is_puppet=no
+        has_war=yes
+        is_faction_leader=no}
+        select_effect={
+            set_popularities = {
+                democratic = 80
+                neutrality = 15
+                fascism = 0
+                communism = 5
+            }
+}
+        completion_reward = {
+            create_faction ="Decentralist Hindustan"
+            add_to_faction = NWF
+            add_to_faction = WIS
+        }
+
+        prerequisite = { focus = BRM_protect_our_homeland }
+    }
+    focus = {
+        id = BRM_give_in
+        icon = GFX_focus_BUL_condemn_macedonian_organizations
+        x = 3
+        y = 0
+        cost = 1
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        available = {has_war = yes
+          NOT={  controls_state = 288
+        }}
+        select_effect = {
+            RAJ ={
+
+                transfer_state =288
+            }
+        }
+        completion_reward = {
+            white_peace = RAJ
+
+        }
+    }
+	#Look west
+	focus = {
+		id = BRM_look_east
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 2
+		y = 1
+		cost = 1
+        available = {is_faction_leader=no
+        has_war=yes}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+        completion_reward ={
+           SIA={ declare_war_on = {
+                target = RAJ
+                type = annex_everything
+            }
+           puppet=BRM
+           }
+            add_popularity = {
+                ideology = fascism
+                popularity = 0.7
+            }
+        }
+		prerequisite = { focus = BRM_protect_our_homeland  }
+	}
+
+}

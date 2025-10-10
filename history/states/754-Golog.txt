@@ -4,6 +4,18 @@ state={
 	provinces={
 		1882 4888 7270 7988 8104 10817 11448 12815 
 	}
+    history = {
+        add_core_of = CHI
+        add_core_of = XSM
+        add_core_of = PRC
+        add_core_of = GOW
+        owner = GOW
+    buildings = {
+        arms_factory = 1
+        industrial_complex = 2
+        infrastructure = 1
+    }
+    }
 	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category=rural
