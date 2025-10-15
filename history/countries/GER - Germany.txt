@@ -184,7 +184,7 @@ set_popularities = {
         #zentrum28
          democratic = 10
          authoritarianism =21
-         libertarianism = 2
+         populism = 2
     #nsdap38
 	fascism = 30
 	neutrality = 5

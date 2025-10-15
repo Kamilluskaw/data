@@ -748,7 +748,7 @@ DAG = {
 	color_ui = rgb { 0 163 204 }
 }
 BYA = {
-	color = rgb { 0 64 255 }
+	color = rgb { 60 97 30 }
 	color_ui = rgb { 0 45 179 }
 }
 FER = {
@@ -764,7 +764,7 @@ YAK = {
 	color_ui = rgb { 0 179 179 }
 }
 VLA = {
-	color = rgb { 255 204 0 }
+	color = rgb { 102 75 104 }
 	color_ui = rgb { 204 163 0 }
 }
 KKP = {
@@ -1172,7 +1172,7 @@ KUM = {
 	color_ui = rgb { 0 0 0 }
 }
 GNG = {
-	color = rgb { 70 120 0 }
+	color = rgb { 0 70 120 }
 	color_ui = rgb { 0 0 0 }
 }
 FUJ = {
@@ -1246,6 +1246,18 @@ NIQ = {
     color_ui = rgb { 0 0 0 }
 }
 ORQ = {
+    color = rgb { 120 96 0 }
+    color_ui = rgb { 0 0 0 }
+}
+JIQ = {
+    color = rgb { 0 120 92 }
+    color_ui = rgb { 0 0 0 }
+}
+MXC = {
+    color = rgb { 51 99 27 }
+    color_ui = rgb { 0 0 0 }
+}
+SYB = {
     color = rgb { 120 96 0 }
     color_ui = rgb { 0 0 0 }
 }

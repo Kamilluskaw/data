@@ -10,15 +10,15 @@ set_convoys = 0
 
 # Politics for 1936.1.1
 set_politics = {
-	ruling_party = conservativism
+	ruling_party = authoritarianism
 	last_election = "1934.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservativism   = 59
-    liberalism = 26
-	neutrality = 15
+	fascism   = 51
+    authoritarianism = 39
+	neutrality = 10
 }
 # Government/National Spirits
 add_ideas = {

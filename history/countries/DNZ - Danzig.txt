@@ -98,7 +98,7 @@ set_popularities = { #popularities based on 1933 election statistics.
 	authoritarianism = 38
 	neutrality = 22
     fascism = 32
-    libertarianism = 8
+    populism = 8
 }
 
 create_country_leader = {

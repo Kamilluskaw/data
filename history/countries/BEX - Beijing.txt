@@ -24,7 +24,7 @@ set_popularities = {
 
     #new kuomintang32
     fascism = 25
-    libertarianism = 5
+    populism = 5
     authoritarianism = 2
 
 

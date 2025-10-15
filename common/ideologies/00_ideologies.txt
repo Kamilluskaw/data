@@ -348,63 +348,7 @@ ideologies = {
 
         ai_give_core_state_control_threshold = 10000
     }
-    libertarianism = {
 
-        types = {
-
-            paleo_libertarianism  = {
-            }
-
-            bleeding_heart_libertarianism  = {
-            }
-
-            left_libertarianism = {
-                can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-            }
-        }
-
-        dynamic_faction_names = {
-            "FACTION_NAME_NONALIGNED_1"
-            "FACTION_NAME_NONALIGNED_2"
-            "FACTION_NAME_NONALIGNED_3"
-            "FACTION_NAME_NONALIGNED_4"
-            "FACTION_NAME_NONALIGNED_5"
-        }
-
-        color = { 170 180 255}
-
-
-        war_impact_on_world_tension = 0.25		#no major danger
-        faction_impact_on_world_tension = 0.1
-
-        rules = {
-            can_force_government = yes
-            can_puppet = yes
-            can_send_volunteers = no
-        }
-
-        modifiers = {
-            #increased_influence_factor = 0.3 #30% easier to influence
-            generate_wargoal_tension = 0.5
-            join_faction_tension = 0.4
-            lend_lease_tension = 0.6
-            send_volunteers_tension = 0.4
-            guarantee_tension = 0.4
-            drift_defence_factor = -0.3
-            civilian_intel_to_others = 20.0
-            army_intel_to_others = 10.0
-            navy_intel_to_others = 20.0
-            airforce_intel_to_others = 10.0
-        }
-
-        faction_modifiers = {
-        }
-
-        ai_neutral = yes #
-        ai_ideology_wanted_units_factor = 1.15
-
-        ai_give_core_state_control_threshold = 10000
-    }
 	democratic = {
 
 		types = {
@@ -415,8 +359,6 @@ ideologies = {
 			consevative_liberalism = {
 			}
 
-			populism = {
-			}
 		}
 
 		dynamic_faction_names = {
@@ -532,6 +474,55 @@ ideologies = {
         ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 
         ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+    }
+    populism = {
+
+        types = {
+
+            democratic_populism = {}
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_NONALIGNED_1"
+            "FACTION_NAME_NONALIGNED_2"
+            "FACTION_NAME_NONALIGNED_3"
+            "FACTION_NAME_NONALIGNED_4"
+            "FACTION_NAME_NONALIGNED_5"
+        }
+
+        color = { 13 60 80 }
+
+
+        war_impact_on_world_tension = 0.25		#no major danger
+        faction_impact_on_world_tension = 0.1
+
+        rules = {
+            can_force_government = yes
+            can_puppet = yes
+            can_send_volunteers = no
+        }
+
+        modifiers = {
+            #increased_influence_factor = 0.3 #30% easier to influence
+            generate_wargoal_tension = 0.5
+            join_faction_tension = 0.4
+            lend_lease_tension = 0.6
+            send_volunteers_tension = 0.4
+            guarantee_tension = 0.4
+            drift_defence_factor = -0.3
+            civilian_intel_to_others = 20.0
+            army_intel_to_others = 10.0
+            navy_intel_to_others = 20.0
+            airforce_intel_to_others = 10.0
+        }
+
+        faction_modifiers = {
+        }
+
+        ai_neutral = yes #
+        ai_ideology_wanted_units_factor = 1.15
+
+        ai_give_core_state_control_threshold = 10000
     }
     authoritarianism = {
 

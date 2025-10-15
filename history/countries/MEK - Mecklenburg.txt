@@ -167,7 +167,7 @@ set_popularities = {
 	neutrality = 20
     authoritarianism = 15
     liberalism = 5
-    libertarianism = 2
+    populism = 2
     monarchism = 3
 }
 

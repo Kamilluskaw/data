@@ -16,9 +16,9 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 18
-
-	neutrality = 82
+	conservativism = 18
+    populism = 3
+	neutrality = 79
 }
 # Government/National Spirits
 add_ideas = {

@@ -18,7 +18,7 @@ set_politics = {
 set_popularities = {
 	conservativism = 75
 	socialism = 10
-	libertarianism = 7
+	populism = 7
 	authoritarianism =8
 }
 # Government/National Spirits

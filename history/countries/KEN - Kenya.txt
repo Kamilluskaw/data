@@ -84,7 +84,7 @@ set_popularities = {
     authoritarianism = 7
     #nationals48
     fascism = 6
-    libertarianism = 2
+    populism = 2
     authoritarianism = 30
     monarchism = 10
 }

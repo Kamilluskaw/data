@@ -5,117 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719ed1bf-040e-49f1-87ac-5c5b5c6a983f" name="Changes" comment="0.0.0.2&#10;&#10;Signed-off-by: kamilluska &lt;dashlight13@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/history/units/SLV_1936.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/countries/Jiangsu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/countries/Manchu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/countries/SiberianState.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localisation/english/parties_l_english.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/bookmarks/the_gathering_storm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/bookmarks/the_gathering_storm.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/countries/colors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/countries/colors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/country_leader/00_traits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/country_leader/00_traits.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/country_tags/custom_countries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/country_tags/custom_countries.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/descriptor.mod" beforeDir="false" afterPath="$PROJECT_DIR$/descriptor.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/ALB - Albania.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/ALB - Albania.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/ALG - Algeria.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/ALG - Algeria.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/ideologies/00_ideologies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/ideologies/00_ideologies.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/ARX - Army Group XII..txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/ARX - Army Group XII..txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/BEL - Belgium.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/BEL - Belgium.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/BEX - Beijing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/BEX - Beijing.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/BOS - Bosnia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/BOS - Bosnia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/BRM - Burma.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/BRM - Burma.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/BRX - Britain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/BRX - Britain.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/BUL - Bulgaria.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/BUL - Bulgaria.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/CHI - China.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/CHI - China.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/CPM - Spreska.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/CPM - Spreska.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/CRO - Croatia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/CRO - Croatia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/CSM - Csongrád.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/CSM - Csongrád.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/CVM - Vojvodina.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/CVM - Vojvodina.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/CWM - Baranya.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/CWM - Baranya.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/CYM - Crownlands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/CYM - Crownlands.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/CZE - Czechoslovakia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/CZE - Czechoslovakia.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/CZM - Zagreb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/CZM - Zagreb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/DEN - Denmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/DEN - Denmark.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/FRA - France.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/FRA - France.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/countries/DNZ - Danzig.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/DNZ - Danzig.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/FUJ - Fujian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/FUJ - Fujian.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/GAU - Gansu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/GAU - Gansu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/GNG - Guangdong.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/GNG - Guangdong.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/GRE - Greece.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/GRE - Greece.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/GXC - Guangxi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/GXC - Guangxi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/HAN - Hanover.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/HAN - Hanover.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/HES - Hesse.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/HES - Hesse.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/HUI - Hubei.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/HUI - Hubei.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/HUN - Hungary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/HUN - Hungary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/IRE - Ireland.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/IRE - Ireland.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/ITA - Italy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/ITA - Italy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/JAP - Japan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/JAP - Japan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/KOR - Korea.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/KOR - Korea.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/KSH - Kashubia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/KSH - Kashubia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/KUM - Kumul.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/KUM - Kumul.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/LEB - Lebanon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/LEB - Lebanon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/MAN - Manchukou.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/MAN - Manchukou.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/countries/GER - Germany.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/GER - Germany.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/countries/KEN - Kenya.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/KEN - Kenya.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/MEK - Mecklenburg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/MEK - Mecklenburg.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/MEN - Mengkukuo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/MEN - Mengkukuo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/MNT - Montenegro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/MNT - Montenegro.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/MON - Mongolia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/MON - Mongolia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/POL - Poland.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/POL - Poland.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/PRC - ComChina.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/PRC - ComChina.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/PRE - Prussia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/PRE - Prussia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/RAJ - British Raj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/RAJ - British Raj.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/SAX - Saxony.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SAX - Saxony.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/SER - Serbia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SER - Serbia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/SIK - Sinkiang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SIK - Sinkiang.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/SIL - Silesia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SIL - Silesia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/SLV - Slovenia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SLV - Slovenia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/countries/SHQ - Shangdong.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SHQ - Shangdong.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/SOV - Soviet union.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SOV - Soviet union.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/SPR - Spain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SPR - Spain.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/SYR - Syria.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SYR - Syria.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/TAN - Tannu Tuva.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/TAN - Tannu Tuva.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/TIB - Tibet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/TIB - Tibet.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/TUR - Turkey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/TUR - Turkey.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/UKR - Ukraine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/UKR - Ukraine.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/WHF - Western Holy Federacy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/WHF - Western Holy Federacy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/YUG - Yugoslavia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/YUG - Yugoslavia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/countries/SXC - Sichuan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/SXC - Sichuan.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/countries/YUN - Yunnan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/YUN - Yunnan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/1023-Zagreb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/1023-Zagreb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/287-Sinkiang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/287-Sinkiang.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/341-Edirne.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/341-Edirne.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/354-Trabzon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/354-Trabzon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/524-Taiwan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/524-Taiwan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/597-Shandong.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/597-Shandong.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/144-Nord-Noreg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/144-Nord-Noreg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/195-Leningrad Area.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/195-Leningrad Area.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/208-Pskov.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/208-Pskov.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/209-Smolensk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/209-Smolensk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/210-Bryansk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/210-Bryansk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/213-Murmansk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/213-Murmansk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/215-Eastern Karelia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/215-Eastern Karelia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/216-Below Zero.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/216-Below Zero.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/263-Veliky Novogrod.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/263-Veliky Novogrod.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/402-Akhtubinsk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/402-Akhtubinsk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/404-Saykhin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/404-Saykhin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/405-Atyrau.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/405-Atyrau.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/409-Khabarovsk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/409-Khabarovsk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/516-Northern Siberia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/516-Northern Siberia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/560-TS 2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/560-TS 2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/561-TS 3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/561-TS 3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/562-TS 4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/562-TS 4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/563-TS 5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/563-TS 5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/564-TS 6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/564-TS 6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/565-TS 7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/565-TS 7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/574-Siberia 1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/574-Siberia 1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/575-Siberia 2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/575-Siberia 2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/584-Turkmenistan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/584-Turkmenistan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/585-Uzbekistan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/585-Uzbekistan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/586-Kyrgyzstan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/586-Kyrgyzstan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/587-Western Kazakstan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/587-Western Kazakstan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/589-Eastern Kazakhstan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/589-Eastern Kazakhstan.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/states/598-Jiansu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/598-Jiansu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/605-China 5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/605-China 5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/606-China 6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/606-China 6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/607-China 7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/607-China 7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/609-China 8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/609-China 8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/614-China 13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/614-China 13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/616-China 14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/616-China 14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/619-China 16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/619-China 16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/622-China 19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/622-China 19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/744-Xian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/744-Xian.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/746-Ordos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/746-Ordos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/754-Golog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/754-Golog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/755-Haixi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/755-Haixi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/756-Jiuquan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/756-Jiuquan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/759-Kunlun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/759-Kunlun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/760-Dabancheng.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/760-Dabancheng.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/985 - Sikkim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/985 - Sikkim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/998-Sagaing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/998-Sagaing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/units/CZM_1936.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/units/CZM_1936.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/units/PRC_1936.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/units/PRC_1936.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/units/YUG_1936_nsb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/units/YUG_1936_nsb.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/644-state 3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/644-state 3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/650-Attu Island.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/650-Attu Island.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/657-Border state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/657-Border state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/666-Norrnorrland.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/666-Norrnorrland.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/714-Heilungkiang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/714-Heilungkiang.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/732-Pamir.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/732-Pamir.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/742-Stalinabad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/742-Stalinabad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/761-Hulunbuir.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/761-Hulunbuir.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/823 - Karakalpakstan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/823 - Karakalpakstan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/830 - Bukhara.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/830 - Bukhara.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/831 - Khiva.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/831 - Khiva.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/832 - Dashhowuz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/832 - Dashhowuz.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/876-Udachny.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/876-Udachny.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/877-Verkhoyansk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/877-Verkhoyansk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/878-Khatangsky.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/878-Khatangsky.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/881-Karagandy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/881-Karagandy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/924-Troms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/924-Troms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/925-Finnmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/925-Finnmark.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localisation/english/countries_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/countries_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_army_group_xii_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_army_group_xii_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_baranya_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_baranya_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_beijing_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_beijing_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_britain_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_britain_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_crownlands_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_crownlands_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_fujian_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_fujian_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_gansu_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_gansu_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_guangdong_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_guangdong_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_hubei_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_hubei_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_kumul_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_kumul_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_sparta_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_sparta_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_spreska_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_spreska_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_vojvodina_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_vojvodina_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_western_holy_federacy_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_western_holy_federacy_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/country_zagreb_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/country_zagreb_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/terrain/reflection.dds" beforeDir="false" afterPath="$PROJECT_DIR$/map/terrain/reflection.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_anhui_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_army_group_xii_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_beijing_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_fujian_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_gansu_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_goluk_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_guangdong_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_hebei_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_henan_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_hubei_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_kumul_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_ningxia_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_ordos_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_shangdong_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_sichuan_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_tunganistan_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_uyguria_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_western_holy_federacy_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/country_xian_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/xd.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,29 +130,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dashl/Documents/Paradox Interactive/Hearts of Iron IV/mod/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dashl/Documents/Paradox Interactive/Hearts of Iron IV/mod/data/common/countries&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dashl\Documents\Paradox Interactive\Hearts of Iron IV\mod\data\common\countries" />
       <recent name="C:\Users\dashl\Documents\Paradox Interactive\Hearts of Iron IV\mod\data\history\units" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dashl\Documents\Paradox Interactive\Hearts of Iron IV\mod\data\localisation\english" />
     </key>
   </component>
   <component name="TaskManager">

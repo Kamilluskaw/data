@@ -17,7 +17,8 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 45
-    liberalism = 32
+    liberalism = 29
+    conservativism = 3
     fascism = 23
 }
 # Government/National Spirits
@@ -28,22 +29,4 @@ add_ideas = {
 	limited_conscription
 	volunteer_only
 	civilian_economy
-}
-
-1939.1.1 = {
-	oob = "FUJ_1939"
-	starting_train_buffer = 0
-	set_research_slots = 3
-	set_stability = 0.5
-	set_war_support = 0.5
-	add_command_power = 0
-	set_convoys = 0
-
-	# Politics for 1939.1.1
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1934.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 }

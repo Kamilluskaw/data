@@ -1287,12 +1287,13 @@ set_popularities = {
 	monarchism = 88
 }
 
-create_faction = "Moscow Accord"
+create_faction = "Treaty of Kalinin"
 add_to_faction = MON
-add_to_faction = TAN
 add_to_faction = SIK
 
-puppet = SIK
+puppet = TAN
+puppet = BYA
+puppet = MXC
 if = {
 	limit = {
 		has_dlc = "La Resistance"
