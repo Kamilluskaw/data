@@ -106,8 +106,8 @@ POR = {
 	color_ui = rgb { 51 151 91 }
 }
 FIN = {
-	color = rgb { 205 212 228 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 104 1 5 }
+	color_ui = rgb { 76 2 2 }
 }
 IRE = {
 	color = rgb { 39 76 44 }
@@ -174,7 +174,7 @@ ELS = {
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
-	color = rgb { 152 130 191 }
+	color = rgb { 90 74 117 }
 	color_ui = rgb { 198 169 248 }
 }
 GUA = {
@@ -186,7 +186,7 @@ HON = {
 	color_ui = rgb { 128 145 65 }
 }
 IRQ = {
-	color = rgb { 178 114 99 }
+	color = rgb { 89 50 41 }
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
@@ -262,7 +262,7 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
+	color = rgb { 56 93 128 }
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
@@ -315,7 +315,7 @@ CAT = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 226  135  40 }
+	color = rgb { 140 89 35 }
 	color_ui = rgb { 226  135  40 }
 }
 
@@ -425,7 +425,7 @@ CAM = {
 }
 
 MAL = {
-	color = rgb { 197  96  100 }
+	color = rgb { 49 152 133 }
 	color_ui = rgb { 213  169  121 }
 }
 
@@ -728,17 +728,18 @@ KAL = {
 	color_ui = rgb { 204 163 0 }
 }
 KAR = {
-	color = rgb { 0 153 51 }
-	color_ui = rgb { 0 128 43 }
+	color = rgb { 153 0 82 }
+	color_ui = rgb { 115 0 128 }
 }
 CRI = {
 	color = rgb { 255 80 80 }
 	color_ui = rgb { 204 0 0 }
 }
 TAT = {
-	color = rgb { 255 51 0 }
-	color_ui = rgb { 179 36 0 }
+	color = rgb { 79 106 61 }
+	color_ui = rgb { 0 179 9 }
 }
+
 CIN = {
 	color = rgb { 0 204 0 }
 	color_ui = rgb { 0 153 0 }
@@ -760,7 +761,7 @@ CKK = {
 	color_ui = rgb { 128 128 0 }
 }
 YAK = {
-	color = rgb { 0 255 255 }
+	color = rgb { 117 5 8 }
 	color_ui = rgb { 0 179 179 }
 }
 VLA = {
@@ -768,7 +769,7 @@ VLA = {
 	color_ui = rgb { 204 163 0 }
 }
 KKP = {
-	color = rgb { 255 128 0 }
+	color = rgb { 92 63 33 }
 	color_ui = rgb { 204 102 0 }
 }
 YAM = {
@@ -812,11 +813,11 @@ BSK = {
 	color_ui = rgb { 36 143 36 }
 }
 BUK = {
-	color = rgb { 204 153 102 }
+	color = rgb { 117 61 4 }
 	color_ui = rgb { 172 115 57 }
 }
 KHI = {
-	color = rgb { 51 204 255 }
+	color = rgb { 49 106 126 }
 	color_ui = rgb { 0 134 179 }
 }
 UDM = {
@@ -964,7 +965,7 @@ BAR = {
 	color_ui = rgb { 204 0 0 }
 }
 EVE = {
-	color = rgb { 153 221 255 }
+	color = rgb { 71 102 117 }
 	color_ui = rgb { 0 119 179 }
 }
 SOK = {

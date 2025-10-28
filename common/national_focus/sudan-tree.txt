@@ -1,0 +1,543 @@
+focus_tree = {
+	id = sudan-tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SUD
+		}
+	}
+	#The Empire of Sudan shall emerge,,,
+	focus = {
+		id = SUD_theempireofsudanshallemerge
+		icon = GFX_goal_unknown
+		x = 10
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_italia_it_is  }
+	}
+
+	#Italia it is
+	focus = {
+		id = SUD_italia_it_is
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_between_giants  }
+	}
+
+	#Bastion of the North
+	focus = {
+		id = SUD_bastion_of_the_north
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_pledge_to_the_crown  }
+	}
+
+	#Work towards African liberation
+	focus = {
+		id = SUD_work_towards_african_liberation
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_joinfrance  }
+	}
+
+	#Join  France
+	focus = {
+		id = SUD_joinfrance
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_between_giants  }
+	}
+
+	#Between Giants
+	focus = {
+		id = SUD_between_giants
+		icon = GFX_goal_unknown
+		x = 7
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_a_fading_sun_revitalises  }
+	}
+
+	#Pledge to the Crown
+	focus = {
+		id = SUD_pledge_to_the_crown
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_between_giants  }
+	}
+
+	#Foreign Affairs
+	focus = {
+		id = SUD_foreign_affairs
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_the_legacy_of_ali_dinar  }
+	}
+
+	#The Legacy of Ali Dinar
+	focus = {
+		id = SUD_the_legacy_of_ali_dinar
+		icon = GFX_goal_unknown
+		x = 12
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Formalisation of an order
+	focus = {
+		id = SUD_formalisation_of_an_order
+		icon = GFX_goal_unknown
+		x = 15
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_the_legacy_of_ali_dinar  }
+	}
+
+	#Hunt them down
+	focus = {
+		id = SUD_hunt_them_down
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_formalisation_of_an_order  }
+	}
+
+	#Bribe the Warlords
+	focus = {
+		id = SUD_bribe_the_warlords
+		icon = GFX_goal_unknown
+		x = 17
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_formalisation_of_an_order  }
+	}
+
+	#Rebuild the Palace of Darfur
+	focus = {
+		id = SUD_rebuild_the_palace_of_darfur
+		icon = GFX_goal_unknown
+		x = 13
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_formalisation_of_an_order  }
+	}
+
+	#Intervene in the Fall of Addis Ababa
+	focus = {
+		id = SUD_intervene_in_the_fall_of_addis_ababa
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_foreign_affairs  }
+	}
+
+	#Coronating a New Sultan
+	focus = {
+		id = SUD_coronating_a_new_sultan
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_reopen_the_parliament  }
+	}
+
+	#Tides Turning
+	focus = {
+		id = SUD_tides_turning
+		icon = GFX_goal_unknown
+		x = 16
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_reopen_the_parliament  }
+	}
+
+	#Aid the states in the "Curb"
+	focus = {
+		id = SUD_aidthestatesinthecurb
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_foreign_affairs  }
+	}
+
+	#Envoy to the South
+	focus = {
+		id = SUD_envoy_to_the_south
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_foreign_affairs  }
+	}
+
+	#Separate from the hands of Mecca
+	focus = {
+		id = SUD_separate_from_the_hands_of_mecca
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_foreign_affairs  }
+	}
+
+	#Ashes to dust
+	focus = {
+		id = SUD_ashes_to_dust
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_joinfrance  }
+	}
+
+	#Deflate the Darfuri Dinar
+	focus = {
+		id = SUD_deflate_the_darfuri_dinar
+		icon = GFX_goal_unknown
+		x = 11
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_the_legacy_of_ali_dinar  }
+	}
+
+	#Aggressive Interventionism
+	focus = {
+		id = SUD_aggressive_interventionism
+		icon = GFX_goal_unknown
+		x = 11
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_deflate_the_darfuri_dinar  }
+	}
+
+	#A Fading Sun Revitalises
+	focus = {
+		id = SUD_a_fading_sun_revitalises
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_foreign_affairs  }
+	}
+
+	#Secularist Overtake
+	focus = {
+		id = SUD_secularist_overtake
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_separate_from_the_hands_of_mecca  }
+	}
+
+	#Balancing it out
+	focus = {
+		id = SUD_balancing_it_out
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_deflate_the_darfuri_dinar  }
+	}
+
+	#Establish the FSP
+	focus = {
+		id = SUD_establish_the_fsp
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_the_legacy_of_ali_dinar  }
+	}
+
+	#Breach the border
+	focus = {
+		id = SUD_breach_the_border
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_theempireofsudanshallemerge  }
+	}
+
+	#On the Stage
+	focus = {
+		id = SUD_on_the_stage
+		icon = GFX_goal_unknown
+		x = 7
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_work_towards_african_liberation  } prerequisite = { focus = SUD_ashes_to_dust  }
+	}
+
+	#The Prussia of Africa
+	focus = {
+		id = SUD_the_prussia_of_africa
+		icon = GFX_goal_unknown
+		x = 11
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_theempireofsudanshallemerge  }
+	}
+
+	#Claims on the Foes
+	focus = {
+		id = SUD_claims_on_the_foes
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_bastion_of_the_north  }
+	}
+
+	#Anglofying ourselves
+	focus = {
+		id = SUD_anglofying_ourselves
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_bastion_of_the_north  }
+	}
+
+	#Emerge.
+	focus = {
+		id = SUD_emerge
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_anglofying_ourselves  } prerequisite = { focus = SUD_claims_on_the_foes  }
+	}
+
+	#Test  them
+	focus = {
+		id = SUD_testthem
+		icon = GFX_goal_unknown
+		x = 7
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_on_the_stage  }
+	}
+
+	#End it all
+	focus = {
+		id = SUD_end_it_all
+		icon = GFX_goal_unknown
+		x = 7
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_testthem  }
+	}
+
+	#Support Anti-Islamism in the Middle East
+	focus = {
+		id = SUD_support_antiislamism_in_the_middle_east
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_secularist_overtake  }
+	}
+
+	#It All Collapses
+	focus = {
+		id = SUD_it_all_collapses
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_support_antiislamism_in_the_middle_east  }
+	}
+
+	#A  Dual Society
+	focus = {
+		id = SUD_adualsociety
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_separate_from_the_hands_of_mecca  }
+	}
+
+	#Strenght  in Difference
+	focus = {
+		id = SUD_strenghtindifference
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_adualsociety  }
+	}
+
+	#A Third Faction
+	focus = {
+		id = SUD_a_third_faction
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_strenghtindifference  }
+	}
+
+	#Reopen the Parliament
+	focus = {
+		id = SUD_reopen_the_parliament
+		icon = GFX_goal_unknown
+		x = 15
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_hunt_them_down  } prerequisite = { focus = SUD_bribe_the_warlords  } prerequisite = { focus = SUD_rebuild_the_palace_of_darfur  }
+	}
+
+	#All to glory
+	focus = {
+		id = SUD_all_to_glory
+		icon = GFX_goal_unknown
+		x = 10
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUD_breach_the_border  } prerequisite = { focus = SUD_the_prussia_of_africa  }
+	}
+
+}

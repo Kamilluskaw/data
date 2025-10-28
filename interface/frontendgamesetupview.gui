@@ -992,6 +992,7 @@ guiTypes = {
 			size = { width=100 height=100 }
 			clipping = no
 
+
 			iconType = {
 				name = "chart"
 				spriteType = "GFX_political_chart_small"
@@ -1001,7 +1002,8 @@ guiTypes = {
 			iconType ={
 				name ="pol_view_bg"
 				spriteType = "GFX_small_pol_piechart_overlay"
-				position = { x= -5 y = -5 }
+				position = { x= -6 y = -6 }
+				scale=0.5
 			}
 
 			iconType ={

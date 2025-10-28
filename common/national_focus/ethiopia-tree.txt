@@ -1,0 +1,248 @@
+focus_tree = {
+	id = ethiopia-tree
+	continuous_focus_position = { x = 720 y = 10 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ETH
+		}
+	}
+	#A Nation of Ashes
+	focus = {
+		id = ETH_a_nation_of_ashes
+		icon = GFX_ETH_a_nation_of_ashes-645797
+		x = 1
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Relation with the Crown
+	focus = {
+		id = ETH_relation_with_the_crown
+		icon = GFX_focus_eng_god_save_the_king
+		x = 0
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ETH_a_nation_of_ashes  }
+		completion_reward = {
+			ENG={give_guarantee = ETH}
+		}
+	}
+
+	#State of the Capital
+	focus = {
+		id = ETH_state_of_the_capital
+		icon = GFX_ETH_state_of_the_capital-645784
+		x = 2
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ETH_a_nation_of_ashes  }
+		completion_reward = {
+			271={damage_building = {
+			    type = infrastructure
+			    damage = 1
+			}
+			}
+			
+			add_stability = -0.1
+			
+			271 = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			}
+			
+			
+		}
+	}
+
+	#Deal with the Separatists
+	focus = {
+		id = ETH_deal_with_the_separatists
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ETH_relation_with_the_crown  } prerequisite = { focus = ETH_state_of_the_capital  }
+		completion_reward = {
+			declare_war_on = {
+			    target = QEM
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#Ally Tigray
+	focus = {
+		id = ETH_ally_tigray
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 0
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ETH_deal_with_the_separatists  }
+		completion_reward = {
+			create_faction = "Horn of Africa"
+			add_to_faction = TIG
+			
+			
+		}
+	}
+
+	#Stomp Aussa
+	focus = {
+		id = ETH_stomp_aussa
+		icon = GFX_focus_eng_special_air_service
+		x = 2
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ETH_deal_with_the_separatists  }
+		completion_reward = {
+			declare_war_on = {
+			    target = AFA
+			    type = annex_everything
+			}
+			
+			
+			
+		}
+	}
+
+	#The Fall of Addis Ababa
+	focus = {
+        id = ETH_the_fall_of_addis_ababa
+        icon = GFX_focus_generic_strike_at_democracy2
+        x = 1
+        y = 4
+        cost = 3
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        prerequisite = { focus = ETH_ally_tigray } prerequisite = { focus = ETH_stomp_aussa }
+        completion_reward = {
+            add_war_support = -0.10
+           271={ create_unit = {
+                division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5"
+                owner = ORO
+            }}
+        }
+        select_effect = {
+            ORO = { transfer_state = 271 }
+
+            ETH = {
+                set_province_controller = 8036
+                set_province_controller = 10734
+            }
+            declare_war_on = {
+                target = ORO
+                type = annex_everything
+            }
+
+
+        }
+    }
+
+	#A Bleak Victory
+	focus = {
+        id = ETH_a_bleak_victory
+        icon = GFX_focus_spr_torchbearers_of_tomorrow
+        x = 2
+        y = 5
+        cost = 0
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        prerequisite = { focus = ETH_the_fall_of_addis_ababa }
+        available = {
+            271 = {
+                is_fully_controlled_by = ETH
+            }
+        }
+        completion_reward = {
+            add_stability = 0.15
+            load_focus_tree = {
+                tree = generic_focus
+            }
+
+        }
+        select_effect = {
+            annex_country = {
+                target = TIG
+                transfer_troops = yes
+            }
+
+
+        }
+    }
+
+	#Under the Boots
+	focus = {
+		id = ETH_under_the_boots
+		icon = GFX_ETH_under_the_boots-645743
+		x = 0
+		y = 5
+		cost = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ETH_the_fall_of_addis_ababa  }
+		available = {
+            ORO=  {controls_state = 836
+            }
+
+        }
+		bypass = {
+			
+		}
+		select_effect = {
+            ORO={transfer_state = 836}
+            white_peace=ORO
+            ENG={puppet = ETH}
+            }
+
+        completion_reward = {
+
+            load_focus_tree = {
+                tree = generic_focus
+            }
+
+        }
+	}
+
+}

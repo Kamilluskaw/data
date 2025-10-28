@@ -9,6 +9,9 @@ state={
 	}
 	History={
 		owner=BOS
+        add_core_of = BOS
+
+        add_core_of = YUG
 	}
 	manpower=1910200
 	buildings_max_level_factor=1.000

@@ -8,6 +8,7 @@ state={
 		owner = CPM
 		add_core_of = CPM
 		add_core_of = BOS
+        add_core_of = YUG
 		add_claim_by = CRO
 		add_claim_by = SER
 	}

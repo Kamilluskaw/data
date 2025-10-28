@@ -8,6 +8,8 @@ state={
 		owner = CZM
 		add_core_of = CZM
 		add_core_of = CRO
+        add_core_of = YUG
+        add_claim_by = AUS
         buildings = { industrial_complex = 1
         arms_factory = 1
         infrastructure = 4}
