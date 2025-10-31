@@ -70,6 +70,17 @@ bookmarks = {
             }
         }
 
+        "SUD"={
+            history = "The People's Revolution of Algiers,,,"
+            ideology = anarchism
+            ideas = {
+
+            }
+            focuses = {
+
+            }
+        }
+		
 
 		# minors
 		"ALB"={
