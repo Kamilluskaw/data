@@ -15,9 +15,9 @@
     default = no
     continuous_focus_position = { x = 50 y = 1350 }
     focus = {
-        id = CHI_secure_internal_politics
+        id = CHI_Beaten_But_Not_Defeated
         icon = GFX_goal_generic_major_alliance
-        x = 0
+        x = 2
         y = 0
 
         cost = 10

@@ -18,13 +18,59 @@
 
     }
     focus = {
-        id = CHI_The_Reorganised_Front
+        id = CHI_Internal_Affairs_of_the_Nationalists
         icon = GFX_goal_unknown
-        x = 0
-        y = 0
+        x = 2
+        y = 2
         cost = 1
         search_filters = {
             FOCUS_FILTER_POLITICAL
         }
+
     }
+    focus = {
+        id = CHI_The_Reorganised_Front
+        icon = GFX_goal_unknown
+        x = 2
+        y = 2
+        cost = 1
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+
+    }
+    focus = {
+        id = CHI_Down_Under
+        icon = GFX_goal_unknown
+        x = 4
+        y = 2
+        cost = 1
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        
+    }
+    focus = {
+        id = CHI_In_The_East
+        icon = GFX_goal_unknown
+        x = 0
+        y = 2
+        cost = 1
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        
+    }
+    focus={
+     id = CHI_The_Capital_Region
+        icon = GFX_goal_unknown
+        x = 0
+        y = 6
+        cost = 1
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+        
+    }
+
 }

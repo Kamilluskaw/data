@@ -16,7 +16,6 @@ focus_tree = {
                     tag = XIA
                     tag = GAU
                 }
-                has_dlc = "Waking the Tiger"
             }
 
 	}
