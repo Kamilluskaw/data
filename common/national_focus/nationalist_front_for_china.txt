@@ -1,0 +1,30 @@
+﻿focus_tree = {
+    id = nationalist_front_for_china
+    continuous_focus_position = { x = 140 y = 1050 }
+
+        country = {
+            factor = 0
+
+            modifier = {
+                add = 10
+                OR = {
+                    tag = CHI
+                    tag = SXC
+                    tag = BEX
+                    tag = GNG
+                }
+                has_dlc = "Waking the Tiger"
+            }
+
+    }
+    focus = {
+        id = CHI_The_Reorganised_Front
+        icon = GFX_goal_unknown
+        x = 0
+        y = 0
+        cost = 1
+        search_filters = {
+            FOCUS_FILTER_POLITICAL
+        }
+    }
+}

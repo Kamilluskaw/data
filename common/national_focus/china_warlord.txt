@@ -7,11 +7,9 @@
 		modifier = {
 			add = 10
 			OR = {
-				tag = YUN
-				tag = SIK
-				tag = GXC
-				tag = SHX
-				tag = XSM
+                tag = WHF
+                tag = YUN
+                tag = GXC
 			}
 			has_dlc = "Waking the Tiger"
 		}

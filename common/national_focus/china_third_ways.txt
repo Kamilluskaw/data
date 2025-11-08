@@ -1,0 +1,53 @@
+﻿focus_tree = {
+    id = china_third_ways
+    continuous_focus_position = { x = -40 y = 1050 }
+    country = {
+        factor = 0
+
+
+            modifier = {
+                add = 10
+                OR = {
+                    tag = FUJ
+                    tag = SHQ
+                    tag = ANH
+                }
+                has_dlc = "Waking the Tiger"
+            }
+
+    }
+    default = no
+
+    continuous_focus_position = { x = 50 y = 1350 }
+    focus = {
+        id = CTW_secure_internal_politics
+        icon = GFX_goal_generic_major_alliance
+        x = 0
+        y = 0
+
+        cost = 10
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        available = {
+
+        }
+
+        bypass = {
+
+        }
+
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            add_political_power = 120
+            warlord_rule_all_parties = yes
+        }
+    }
+
+}

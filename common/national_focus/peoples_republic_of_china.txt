@@ -1,0 +1,30 @@
+﻿focus_tree = {
+    id = peoples_republic_of_china
+    continuous_focus_position = { x = 140 y = 1050 }
+    country = {
+        factor = 0
+        modifier = {
+                add = 10
+                OR = {
+                    tag = PRC
+                    tag = HUI
+                    tag = UYQ
+                }         }
+
+    }
+    default = no
+    continuous_focus_position = { x = 50 y = 1350 }
+    focus = {
+        id = CHI_secure_internal_politics
+        icon = GFX_goal_generic_major_alliance
+        x = 0
+        y = 0
+
+        cost = 10
+
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        completion_reward = {
+            add_political_power = 120
+        }
+    }
+}

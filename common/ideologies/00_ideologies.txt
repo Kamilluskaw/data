@@ -3,7 +3,7 @@ ideologies = {
 
         types = {
 
-            anarcho_communism  = {
+            anarchist_communism = {
             }
 
             mutualism  = {
@@ -22,7 +22,7 @@ ideologies = {
             "FACTION_NAME_NONALIGNED_5"
         }
 
-        color = { 82 0 0 }
+        color = { 16 15 15 }
 
 
         war_impact_on_world_tension = 0.25		#no major danger
@@ -72,8 +72,7 @@ ideologies = {
             anti_revisionism = {
             }
 
-            anarchist_communism = {
-            }
+
         }
 
         dynamic_faction_names = {

@@ -5,44 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719ed1bf-040e-49f1-87ac-5c5b5c6a983f" name="Changes" comment="0.0.0.2&#10;&#10;Signed-off-by: kamilluska &lt;dashlight13@gmail.com&gt;">
+      <change afterPath="$PROJECT_DIR$/common/national_focus/china_third_ways.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/national_focus/nationalist_front_for_china.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/national_focus/northern_warlords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/national_focus/peoples_republic_of_china.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/countries/colors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/countries/colors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/flag_overlay.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/flag_overlay.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/pol_piechart_overlay_63x63.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/pol_piechart_overlay_63x63.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/pol_view_bg.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/pol_view_bg.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/small_pol_piechart_frame.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/small_pol_piechart_frame.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/small_pol_piechart_overlay.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/small_pol_piechart_overlay.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/warscore_progressbar.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/warscore_progressbar.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/warscore_progressbar_bg.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/warscore_progressbar_bg.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/warscore_progressbar_small.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/warscore_progressbar_small.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/warscore_progressbar_small_bg.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/warscore_progressbar_small_bg.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/interface/world_tension_icon_big_strip.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/interface/world_tension_icon_big_strip.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/loadingscreens/load_5.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/loadingscreens/load_5.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/AFA - Afar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/AFA - Afar.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/FIN - Finland.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/FIN - Finland.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/KAR - Karelia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/KAR - Karelia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/1023-Zagreb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/1023-Zagreb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/1026-Spreska.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/1026-Spreska.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/1027-Bosanka.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/1027-Bosanka.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/1029-Mitovica.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/1029-Mitovica.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/104-Bosnia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/104-Bosnia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/464-Nova Scotia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/464-Nova Scotia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/465-New Brunswick.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/465-New Brunswick.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/471-Northwestern Canada.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/471-Northwestern Canada.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/473-British Columbia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/473-British Columbia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/474-Yucatan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/474-Yucatan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/484-Baja California.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/484-Baja California.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/739-Haida Gwaii.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/739-Haida Gwaii.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/740-Vancouver Island.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/740-Vancouver Island.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/864-Yukon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/864-Yukon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/973 - Bacs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/973 - Bacs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/units/AFA_1936.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/units/AFA_1936.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/units/ETH_1936.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/units/ETH_1936.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/units/ETH_1936_bba.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/units/ETH_1936_bba.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/countrypoliticsview.gfx" beforeDir="false" afterPath="$PROJECT_DIR$/interface/countrypoliticsview.gfx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/countrypoliticsview.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/countrypoliticsview.gui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/frontendgamesetupview.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/frontendgamesetupview.gui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/countries_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/countries_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/ideologies/00_ideologies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/ideologies/00_ideologies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/national_focus/china-tree.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/national_focus/china_communist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/national_focus/china_communist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/national_focus/china_nationalist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/national_focus/china_nationalist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/national_focus/china_shared.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/national_focus/china_warlord.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/national_focus/china_warlord.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/national_focus/kumul-tree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/national_focus/kumul-tree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/national_focus/ma-tree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/national_focus/ma-tree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/national_focus/warlord-tree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/national_focus/inner-mongolia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/countries/ETH - Ethiopia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/ETH - Ethiopia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/1025-Sremska.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/1025-Sremska.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/1028-Belgrade.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/1028-Belgrade.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/109-Eastern Croatia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/109-Eastern Croatia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history/states/790-Asturias.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/790-Asturias.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_afghanistan_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_afghanistan_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_bosnia_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_bosnia_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_burma_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_burma_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_china-tree_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_china-tree_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_crownlands_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_crownlands_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_ethiopia-tree_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_ethiopia-tree_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_fentian-tree_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_fentian-tree_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_japan-tree_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_japan-tree_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_kosovo_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_kosovo_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_kumul-tree_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_kumul-tree_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_ma-tree_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_ma-tree_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_serbia_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_serbia_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_slovenia_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_slovenia_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_sudan-tree_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_sudan-tree_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/focustree_warlord-tree_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/focustree_warlord-tree_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/buildings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/map/buildings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/definition.csv" beforeDir="false" afterPath="$PROJECT_DIR$/map/definition.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/heightmap.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/map/heightmap.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/provinces.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/map/provinces.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/rivers.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/map/rivers.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/strategicregions/24-Western Balkans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/map/strategicregions/24-Western Balkans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/strategicregions/25-Greece.txt" beforeDir="false" afterPath="$PROJECT_DIR$/map/strategicregions/25-Greece.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/strategicregions/26-Eastern Balkans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/map/strategicregions/26-Eastern Balkans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/strategicregions/27-Northern Balkans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/map/strategicregions/27-Northern Balkans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/strategicregions/41-Northeastern Iberia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/map/strategicregions/41-Northeastern Iberia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/terrain.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/map/terrain.bmp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,28 +82,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dashl/Documents/Paradox Interactive/Hearts of Iron IV/mod/data/common/countries&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dashl/Documents/Paradox Interactive/Hearts of Iron IV/mod/data/common/national_focus",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dashl\Documents\Paradox Interactive\Hearts of Iron IV\mod\data\common\national_focus" />
       <recent name="C:\Users\dashl\Documents\Paradox Interactive\Hearts of Iron IV\mod\data\common\countries" />
       <recent name="C:\Users\dashl\Documents\Paradox Interactive\Hearts of Iron IV\mod\data\history\units" />
     </key>

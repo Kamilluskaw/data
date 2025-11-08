@@ -225,21 +225,16 @@ IF = {
 	recruit_character = ETH_fitauri_zawde_gobena
 	recruit_character = ETH_bedjironde_tekle_hawariate
 }
-set_global_flag = second_italo_ethiopian_war_flag
-1936.05.05 = { clr_global_flag = second_italo_ethiopian_war_flag }
-
 set_convoys = 5
-
-
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarianism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 	set_popularities = {
-		authoriatarianism = 70
+		authoritarianism = 70
 		populism = 20 
 		socialism = 5
 		communism = 5

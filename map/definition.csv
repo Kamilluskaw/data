@@ -589,7 +589,7 @@
 588;2;210;55;land;false;plains;1
 589;2;210;205;land;false;plains;1
 590;3;0;75;land;false;mountain;1
-591;3;0;180;land;true;hills;1
+591;3;0;180;land;false;hills;1
 592;3;0;225;land;false;forest;1
 593;3;0;244;sea;true;ocean;0
 594;3;2;232;sea;true;ocean;0
