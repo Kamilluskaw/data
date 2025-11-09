@@ -1,14 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "The Second Paris Conference"
-		desc = "After the fall of the Unified Workers of Europe the world is once again about to embrace a Post-Parisian universe."
-		date = 1936.1.1.12
+		name = "Another Conference in Paris"
+		desc = "Once more France is near total domination of the world with Her new found ally of Italia. Europe is no longer ridden by the Empires of pesky Monarchists since the carving up of a once glory filled Mitteleuropa and the ousting of the English crown from their Isles. Africa is divided between 3 regions, the Western French Colonies, the North Eastern Italian Dominions and the collapsed former British Empire's lands where the Crown still can be found amongst the foes battling eachother. The Balkans are a mess, nobody can decipher who is fighting who in the Yugoslavian Collapse. The Asian theather is rather calm since Siberia has fallen to the decolonists, but the warlords are still in an ideological chaos to unify China."
+		date = 1941.3.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "FRA"
 		default = yes
 
 		"FRA"={
-			history = "At its core the III.French Republic has emerged as the Grand Victor of the 3rd European Great War"
+			history = "France, the victor of the First and Second European Great Wars is the definition of a modern Superpower, while still retaining its Democratic governance, which cannot be said about most powers of this world."
 			ideology = democratic
 			ideas = {
 
@@ -18,7 +18,7 @@ bookmarks = {
 			}
 		}
 		"ITA"={
-			history = "Italia, the greatest ally of France in modern times has sided with their brothers in Paris to defeat the Germans and the Hungarians once more! On the controrary the Italian Republic has been fading into Mussolinis totalist governing, which might end of sidetracking him from the European Reality."
+			history = "Italia, the greatest ally of France in modern times has sided with their brothers in Paris to defeat the Germans and the Hungarians once more! On the controrary the Italian Republic has been fading into Mussolinis totalist governing, which might end up sidetracking him from the European Reality."
 			ideology = fascism
 			ideas = {
 
@@ -39,7 +39,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
-			history = "The Crown lost its podium, Britain is lost, probably for foverer. The empire collapsed and all we own is a sliver of our African holdings. The dominions sidetracked, France and Italy never came to help us."
+			history = "The Crown has lost its podium, Britain is lost, probably lost foverer. The Empire collapsed and all we own is a sliver of our African holdings. The dominions abandoned us, France and Italy never came for our help."
 			ideology = monarchism
 			ideas = {
 
@@ -58,28 +58,6 @@ bookmarks = {
 
 			}
 		}
-
-        "ALG"={
-            history = "The People's Revolution of Algiers,,,"
-            ideology = anarchism
-            ideas = {
-
-            }
-            focuses = {
-
-            }
-        }
-
-        "SUD"={
-            history = "The People's Revolution of Algiers,,,"
-            ideology = anarchism
-            ideas = {
-
-            }
-            focuses = {
-
-            }
-        }
 		
 
 		# minors

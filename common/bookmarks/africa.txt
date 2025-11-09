@@ -1,13 +1,13 @@
 bookmarks = {
 	bookmark = {
-		name = "The Far East"
+		name = "Down Under"
 		desc = "Once more France is near total domination of the world with Her new found ally of Italia. Europe is no longer ridden by the Empires of pesky Monarchists since the carving up of a once glory filled Mitteleuropa and the ousting of the English crown from their Isles. Africa is divided between 3 regions, the Western French Colonies, the North Eastern Italian Dominions and the collapsed former British Empire's lands where the Crown still can be found amongst the foes battling eachother. The Balkans are a mess, nobody can decipher who is fighting who in the Yugoslavian Collapse. The Asian theather is rather calm since Siberia has fallen to the decolonists, but the warlords are still in an ideological chaos to unify China."
 		date = 1941.3.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "FRA"
+		default_country = "ENG"
 		default = yes
 
-		"CHI"={
+		"ALG"={
 			history = "France, the victor of the First and Second European Great Wars is the definition of a modern Superpower, while still retaining its Democratic governance, which cannot be said about most powers of this world."
 			ideology = democratic
 			ideas = {
@@ -17,7 +17,7 @@ bookmarks = {
 				FRA_the_eagle_that_sored
 			}
 		}
-		"JAP"={
+		"ETH"={
 			history = "Italia, the greatest ally of France in modern times has sided with their brothers in Paris to defeat the Germans and the Hungarians once more! On the controrary the Italian Republic has been fading into Mussolinis totalist governing, which might end up sidetracking him from the European Reality."
 			ideology = fascism
 			ideas = {
@@ -28,7 +28,7 @@ bookmarks = {
 			}
 		}
 
-		"PRC"={
+		"SUD"={
 			history = "The once scary bear has lost all its glory during their civilwar, even though the Whites won in the end the Romanovs are still long gone."
 			ideology = neutrality
 			ideas = {
@@ -38,7 +38,7 @@ bookmarks = {
 
 			}
 		}
-		"RAJ"={
+		"EGY"={
 			history = "The Crown has lost its podium, Britain is lost, probably lost foverer. The Empire collapsed and all we own is a sliver of our African holdings. The dominions abandoned us, France and Italy never came for our help."
 			ideology = monarchism
 			ideas = {
@@ -48,7 +48,7 @@ bookmarks = {
 
 			}
 		}
-		"XSM"={
+		"CAT"={
 			history = "The Revolution against the crown emerged in our favour, the Republic of Britain was founded as a confederacy of the people's of the Isle."
 			ideology = communism
 			ideas = {
@@ -60,18 +60,6 @@ bookmarks = {
 		}
 		
 
-		# minors
-		"GXC"={
-			minor = yes
-			history = "CAN_GATHERING_STORM_DESC"
-			ideology = monarchism
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
         "---"={
             history = "OTHER_GATHERING_STORM_DESC"
         }
