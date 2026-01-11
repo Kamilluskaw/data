@@ -1,16 +1,16 @@
 spriteTypes = {	##Icon For: 
 	SpriteType = { 
-		name = "GFX_FRA_enter_the_yugoslavian_collapse-336"
-		texturefile = "gfx/interface/goals/GFX_FRA_enter_the_yugoslavian_collapse-336.dds"
+		name = "GFX_FRA_eagle_in_the_sun-857816"
+		texturefile = "gfx/interface/goals/GFX_FRA_eagle_in_the_sun-857816.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_FRA_enter_the_yugoslavian_collapse-336_shine"
-		texturefile = "gfx/interface/goals/GFX_FRA_enter_the_yugoslavian_collapse-336.dds"
+		name = "GFX_FRA_eagle_in_the_sun-857816_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_eagle_in_the_sun-857816.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_FRA_enter_the_yugoslavian_collapse-336.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_eagle_in_the_sun-857816.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -22,7 +22,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_FRA_enter_the_yugoslavian_collapse-336.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_eagle_in_the_sun-857816.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

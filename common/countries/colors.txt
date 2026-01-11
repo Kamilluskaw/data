@@ -1262,3 +1262,34 @@ SYB = {
     color = rgb { 120 96 0 }
     color_ui = rgb { 0 0 0 }
 }
+
+
+#Custom colours start here
+MQN = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+FLO = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+USW = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+TEX = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+NWE = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+LCA = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+NWL = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}

@@ -1,0 +1,115 @@
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_YUG_come_in_terms_with_a_tirana-645862"
+		texturefile = "gfx/interface/goals/GFX_YUG_come_in_terms_with_a_tirana-645862.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_YUG_come_in_terms_with_a_tirana-645862_shine"
+		texturefile = "gfx/interface/goals/GFX_YUG_come_in_terms_with_a_tirana-645862.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_YUG_come_in_terms_with_a_tirana-645862.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_YUG_come_in_terms_with_a_tirana-645862.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_YUG_no_agreement_with_a_muslim-646321"
+		texturefile = "gfx/interface/goals/GFX_YUG_no_agreement_with_a_muslim-646321.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_YUG_no_agreement_with_a_muslim-646321_shine"
+		texturefile = "gfx/interface/goals/GFX_YUG_no_agreement_with_a_muslim-646321.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_YUG_no_agreement_with_a_muslim-646321.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_YUG_no_agreement_with_a_muslim-646321.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_YUG_united_south_western_slavia-646368"
+		texturefile = "gfx/interface/goals/GFX_YUG_united_south_western_slavia-646368.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_YUG_united_south_western_slavia-646368_shine"
+		texturefile = "gfx/interface/goals/GFX_YUG_united_south_western_slavia-646368.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_YUG_united_south_western_slavia-646368.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_YUG_united_south_western_slavia-646368.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+}

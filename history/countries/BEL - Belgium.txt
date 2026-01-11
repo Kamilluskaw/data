@@ -511,31 +511,6 @@ IF = {
 		}
 	}
 
-	if = {
-		limit = {
-			has_dlc = "Gotterdammerung"
-		}
-		if = {
-			limit = {
-				has_guaranteed = FRA
-			}
-			diplomatic_relation = { 
-				country = FRA
-				relation = guarantee 
-				active = no
-			}
-		}
-		if = {
-			limit = {
-				has_guaranteed = ENG
-			}
-			diplomatic_relation = { 
-				country = ENG
-				relation = guarantee 
-				active = no
-			}
-		}
-	}
 	set_technology = {
 		gw_artillery = 1
 		interwar_artillery = 1
@@ -589,19 +564,7 @@ set_popularities = {
 	liberalism = 6
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1939.4.2"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 87
-		fascism = 8
-		communism = 5
-	}
-}
+
 
 set_convoys = 80
 set_stability = 0.75

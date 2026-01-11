@@ -1,0 +1,374 @@
+focus_tree = {
+	id = cumania-tree
+	continuous_focus_position = { x = 1100 y = 10 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CXM
+		}
+	}
+	#A Calling from the Past
+	focus = {
+		id = CXM_a_calling_from_the_past
+		icon = GFX_focus_chi_legislative_yuan
+		x = 1
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			tag=CXM
+			owns_state = 973
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = CSM
+				type = civil_war
+			}
+		}
+	}
+
+	#Turn Right
+	focus = {
+		id = CXM_turn_right
+		icon = GFX_CXM_turn_right-88
+		x = 1
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 1021
+		}
+		select_effect = {
+			set_politics = {
+				elections_allowed = no
+				ruling_party = fascism
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = "Egységes Kun Párt-Belső"
+				name = EKP-B
+			}
+			set_party_name = {
+				ideology = socialism
+				long_name = "Egységes Kun Párt-Reformerek"
+				name = EKP-R
+			}
+			set_party_name = {
+				ideology = authoritarianism
+				long_name = "JászKun Szövetség-Szélső"
+				name = JKSZ-SZ
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = "JászKun Szövetség-Center"
+				name = JKSZ-C
+			}
+			set_party_name = {
+				ideology = populism
+				long_name = "Szabad Jász Liga-Populisták"
+				name = JKSZ-P
+			}
+			set_party_name = {
+				ideology = liberalism
+				long_name = "Szabad Jász Liga-Demokraták"
+				name = JKSZ-D
+			}
+			set_party_name = {
+				ideology = conservativism
+				long_name = "Magyar Unionista Paktum"
+				name = MUP
+			}
+			set_party_name = {
+				ideology = monarchism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = anarchism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = post_left
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_popularities = {
+				#egységes kun párt50
+				socialism = 11
+				fascism = 39
+				#jászkun szövetség23
+				neutrality = 21
+				authoritarianism = 2
+				#Szabad Jász Liga9
+				liberalism = 11
+				populism = 3
+				#Magyar Unionista Paktum8
+				conservativism = 13
+				#Megszűnt
+				monarchism = 0
+				democratic = 0
+				anarchism = 0
+				communism = 0
+				
+			}
+		}
+		completion_reward = {
+			add_state_core = 1021
+			1020 = { add_claim_by = CXM}
+		}
+		prerequisite = { focus = CXM_a_calling_from_the_past  }
+	}
+
+	#Ban Jász Parties
+	focus = {
+		id = CXM_banjaszparties
+		icon = GFX_focus_eng_special_air_service
+		x = 0
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		select_effect = {
+						set_politics = {
+				elections_allowed = no
+				ruling_party = fascism
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = "Egységes Kun Párt-Belső"
+				name = EKP-B
+			}
+			set_party_name = {
+				ideology = socialism
+				long_name = "Egységes Kun Párt-Reformerek"
+				name = EKP-R
+			}
+			set_party_name = {
+				ideology = authoritarianism
+				long_name = "Magyar Unionista Paktum"
+				name = MUP
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = "Új JászKun Szövetség"
+				name = ÚJKSZ
+			}
+
+			set_party_name = {
+				ideology = conservativism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = monarchism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = anarchism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = post_left
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_popularities = {
+				#egységes kun párt64
+				socialism = 5
+				fascism = 59
+				#jászkun szövetség13
+				neutrality = 13
+				#Magyar Unionista Paktum23
+				authoritarianism = 23
+				#Megszűnt
+				monarchism = 0
+				democratic = 0
+				anarchism = 0
+				communism = 0
+				liberalism = 0
+				populism = 0
+				conservativism = 0
+			}
+			HUN={
+				leave_faction = yes
+			}
+		}
+		completion_reward = {
+			set_party_name = {
+				ideology = populism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = liberalism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+		}
+		prerequisite = { focus = CXM_turn_right  }
+	}
+
+	#Embrace Hungarist Ideals
+	focus = {
+		id = CXM_embrace_hungarist_ideals
+		icon = GFX_focus_generic_air_defense
+		x = 2
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			authoritarianism = 0.20
+		}
+		select_effect = {
+			set_popularities = {
+				#kun magyar egység95
+				socialism = 5
+				authoritarianism = 21
+				fascism = 69
+				#jászkun szövetség5
+				neutrality = 5
+				#megszűnt
+				monarchism = 0
+				democratic = 0
+				anarchism = 0
+				communism = 0
+				liberalism = 0
+				populism = 0
+				conservativism = 0
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = "Magyar-Kun Egység-Jobboldal"
+				name = MKE-J
+			}
+			set_party_name = {
+				ideology = socialism
+				long_name = "Magyar-Kun Egység-Baloldal"
+				name = MKE-B
+			}
+			set_party_name = {
+				ideology = authoritarianism
+				long_name = "Magyar-Kun Egység-Közép"
+				name = MKE-K
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = "Szabadság Mozgalom"
+				name = SZM
+			}
+		}
+		completion_reward = {
+
+			1017 = { add_claim_by = CXM}
+			974 = { add_claim_by = CXM}
+			1018 = { add_claim_by = CXM}
+			43 = { add_claim_by = CXM}
+			155 = { add_claim_by = CXM}
+			1022 = { add_claim_by = CXM}
+			create_wargoal = {
+				target = HUN
+				type = annex_everything
+			}
+		}
+		prerequisite = { focus = CXM_turn_right  }
+	}
+
+	#The Cuman Khaganate
+	focus = {
+		id = CXM_the_cuman_khaganate
+		icon = GFX_focus_GRE_reviving_the_double_headed_eagle
+		x = 1
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			controls_state = 1017
+
+		}
+		select_effect = {
+			set_party_name = {
+				ideology = socialism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = authoritarianism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = "Kitiltott"
+				name = Kitiltott
+			}
+			set_popularities = {
+				#kun magyar egység95
+				monarchism = 100
+				
+				#megszűnt
+				authoritarianism = 0
+				socialism = 0
+				neutrality = 0
+				monarchism = 0
+				democratic = 0
+				anarchism = 0
+				communism = 0
+				liberalism = 0
+				populism = 0
+				conservativism = 0
+			}
+		}
+		completion_reward = {
+			set_party_name = {
+				ideology = monarchism
+				long_name = "Kun Kaganátus"
+				name = KK
+			}
+			set_politics = {
+				ruling_party = monarchism
+				elections_allowed = no
+				
+			}
+		}
+		prerequisite = { focus = CXM_banjaszparties  } prerequisite = { focus = CXM_embrace_hungarist_ideals  }
+	}
+
+}

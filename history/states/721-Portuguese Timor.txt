@@ -7,15 +7,16 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = POR
+		owner = FRA
 		buildings = {
 			infrastructure = 2
 			12190 ={
 				naval_base = 1
 			}
 		}
+		add_core_of = PNG
 	}
-
+	
 	provinces={
 		1326 12178 12190 12206 13001 
 	}

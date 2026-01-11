@@ -1,0 +1,75 @@
+focus_tree = {
+	id = vojvodina
+	continuous_focus_position = { x = 1290 y = 10 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CVM
+		}
+	}
+	#Unify Lower Hungary
+	focus = {
+		id = CVM_unify_lower_hungary
+		icon = GFX_CVM_unify_lower_hungary-646093
+		x = 2
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CVM_bleedoutcsongrad  } prerequisite = { focus = CVM_stir_up_cumania  } prerequisite = { focus = CVM_peaceoutdravamente  }
+	}
+
+	#Bleed out Csongrád
+	focus = {
+		id = CVM_bleedoutcsongrad
+		icon = GFX_focus_generic_japanese_imperial_glory
+		x = 0
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CVM_gombostakesover  }
+	}
+
+	#Stir up Cumania
+	focus = {
+		id = CVM_stir_up_cumania
+		icon = GFX_CVM_stir_up_cumania-645703
+		x = 4
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CVM_gombostakesover  }
+	}
+
+	#Peace out Drávamente
+	focus = {
+		id = CVM_peaceoutdravamente
+		icon = GFX_CVM_peaceoutdravamente-645940
+		x = 2
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CVM_gombostakesover  }
+	}
+
+	#Gömbös takes over
+	focus = {
+		id = CVM_gombostakesover
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 2
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+}

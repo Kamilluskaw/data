@@ -85,17 +85,18 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservativism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	conservativism  = 60
-	fascism = 0
-	communism = 20
-	neutrality = 20
+	conservativism  = 63
+	fascism = 5
+	liberalism = 5
+	communism = 17
+	neutrality = 10
 }
 
 recruit_character = YAK_pavel_pevznyak

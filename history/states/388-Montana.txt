@@ -10,8 +10,8 @@ state = {
 
 	history = {
 
-		owner = USA
-		add_core_of = USA
+		owner = MQN
+		add_core_of = MQN
 
 		buildings = {
 			infrastructure = 2

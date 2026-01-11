@@ -1,0 +1,251 @@
+focus_tree = {
+	id = montenegro-tree
+	continuous_focus_position = { x = 2050 y = 140 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MNT
+		}
+	}
+	#In the Shadow of Belgrade
+	focus = {
+		id = MNT_in_the_shadow_of_belgrade
+		icon = GFX_goal_unknown
+		x = 1
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = MNT_abandon_the_ship  }
+	}
+
+	#Abandon the ship
+	focus = {
+		id = MNT_abandon_the_ship
+		icon = GFX_goal_unknown
+		x = 6
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = MNT_in_the_shadow_of_belgrade  }
+	}
+
+	#Ally Albania
+	focus = {
+		id = MNT_ally_albania
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_abandon_the_ship  }
+		mutually_exclusive = { focus = MNT_an_alternative_movement  }
+	}
+
+	#Overlordship over Herzegovina
+	focus = {
+		id = MNT_overlordship_over_herzegovina
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_in_the_shadow_of_belgrade  }
+		mutually_exclusive = { focus = MNT_claim_north_albania  }
+	}
+
+	#RISE
+	focus = {
+		id = MNT_rise
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_exile_the_former_monarchy  }
+		mutually_exclusive = { focus = MNT_join_their_government  }
+	}
+
+	#Join their Government
+	focus = {
+		id = MNT_join_their_government
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_exile_the_former_monarchy  }
+		mutually_exclusive = { focus = MNT_rise  }
+	}
+
+	#Rebuild Podgorica
+	focus = {
+		id = MNT_rebuild_podgorica
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_overlordship_over_herzegovina  focus = MNT_claim_north_albania  }
+	}
+
+	#Exile the former Monarchy
+	focus = {
+		id = MNT_exile_the_former_monarchy
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_rebuild_podgorica  }
+	}
+
+	#The Castle
+	focus = {
+		id = MNT_the_castle
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_ally_albania  focus = MNT_an_alternative_movement  }
+	}
+
+	#The Prince
+	focus = {
+		id = MNT_the_prince
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_the_castle  }
+	}
+
+	#The Consul
+	focus = {
+		id = MNT_the_consul
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_the_castle  }
+	}
+
+	#The Widow
+	focus = {
+		id = MNT_the_widow
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_the_castle  }
+	}
+
+	#An Alternative Movement
+	focus = {
+		id = MNT_an_alternative_movement
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_abandon_the_ship  }
+		mutually_exclusive = { focus = MNT_ally_albania  }
+	}
+
+	#Claim North Albania
+	focus = {
+		id = MNT_claim_north_albania
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_in_the_shadow_of_belgrade  }
+		mutually_exclusive = { focus = MNT_overlordship_over_herzegovina  }
+	}
+
+	#And the State Lives!
+	focus = {
+		id = MNT_andthestatelives
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_final_push  focus = MNT_rise  }
+	}
+
+	#Final Push
+	focus = {
+		id = MNT_final_push
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_the_prince  focus = MNT_the_widow  focus = MNT_the_consul  }
+	}
+
+	#Rally around the Late Sultan
+	focus = {
+		id = MNT_rally_around_the_late_sultan
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_ally_albania  }
+	}
+
+	#Contact Csongrád
+	focus = {
+		id = MNT_contactcsongrad
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MNT_an_alternative_movement  }
+	}
+
+}

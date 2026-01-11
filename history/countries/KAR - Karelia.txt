@@ -93,10 +93,11 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 50
-	fascism = 10
-	communism = 40
-	neutrality = 0
+	democratic = 47
+	authoritarianism = 5
+	communism = 30
+	neutrality = 5
+	socialism = 13
 }
 
 recruit_character = KAR_peteris_irklis

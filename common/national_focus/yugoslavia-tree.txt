@@ -1,0 +1,131 @@
+focus_tree = {
+	id = yugoslavia-tree
+	continuous_focus_position = { x = 1100 y = 10 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = YUG
+		}
+	}
+	#The Legitimate Claimant
+	focus = {
+		id = YUG_the_legitimate_claimant
+		icon = GFX_focus_chi_army_reform
+		x = 2
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#War in the East
+	focus = {
+		id = YUG_war_in_the_east
+		icon = GFX_focus_generic_combined_arms
+		x = 0
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = YUG_the_legitimate_claimant  }
+	}
+
+	#The South
+	focus = {
+		id = YUG_the_south
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 2
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = YUG_the_legitimate_claimant  }
+	}
+
+	#The West
+	focus = {
+		id = YUG_the_west
+		icon = GFX_focus_generic_treaty
+		x = 4
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = YUG_the_legitimate_claimant  }
+	}
+
+	#Peace out Lower Hungary
+	focus = {
+		id = YUG_peace_out_lower_hungary
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 1
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = YUG_war_in_the_east  } prerequisite = { focus = YUG_the_south  } prerequisite = { focus = YUG_the_west  }
+		mutually_exclusive = { focus = YUG_cause_pest_to_enter_the_conflict  }
+	}
+
+	#Come in terms with a Tirana
+	focus = {
+		id = YUG_come_in_terms_with_a_tirana
+		icon = GFX_YUG_come_in_terms_with_a_tirana-645862
+		x = 1
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = YUG_cause_pest_to_enter_the_conflict  focus = YUG_peace_out_lower_hungary  }
+		mutually_exclusive = { focus = YUG_no_agreement_with_a_muslim  }
+	}
+
+	#No Agreement with a Muslim
+	focus = {
+		id = YUG_no_agreement_with_a_muslim
+		icon = GFX_YUG_no_agreement_with_a_muslim-646321
+		x = 3
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = YUG_cause_pest_to_enter_the_conflict  focus = YUG_peace_out_lower_hungary  }
+		mutually_exclusive = { focus = YUG_come_in_terms_with_a_tirana  }
+	}
+
+	#Cause Pest to Enter the Conflict
+	focus = {
+		id = YUG_cause_pest_to_enter_the_conflict
+		icon = GFX_focus_generic_license_production
+		x = 3
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = YUG_war_in_the_east  } prerequisite = { focus = YUG_the_south  } prerequisite = { focus = YUG_the_west  }
+		mutually_exclusive = { focus = YUG_peace_out_lower_hungary  }
+	}
+
+	#United South Western Slavia
+	focus = {
+		id = YUG_united_south_western_slavia
+		icon = GFX_YUG_united_south_western_slavia-646368
+		x = 2
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = YUG_come_in_terms_with_a_tirana  focus = YUG_no_agreement_with_a_muslim  }
+	}
+
+}

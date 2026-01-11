@@ -1,0 +1,141 @@
+focus_tree = {
+	id = croatia-tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRO
+		}
+	}
+	#Hells loose
+	focus = {
+		id = CRO_hells_loose
+		icon = GFX_goal_unknown
+		x = 3
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#To the kneese
+	focus = {
+		id = CRO_to_the_kneese
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_tilt_the_scene  }
+	}
+
+	#Rot the Folds
+	focus = {
+		id = CRO_rot_the_folds
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_tilt_the_scene  }
+	}
+
+	#Mold the Fight
+	focus = {
+		id = CRO_mold_the_fight
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_hells_loose  }
+		mutually_exclusive = { focus = CRO_tilt_the_scene  }
+	}
+
+	#Tired Lashes
+	focus = {
+		id = CRO_tired_lashes
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_mold_the_fight  }
+	}
+
+	#New Order
+	focus = {
+		id = CRO_new_order
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_pointless_schemes  } prerequisite = { focus = CRO_void_the_doiv  }
+	}
+
+	#Tilt the Scene
+	focus = {
+		id = CRO_tilt_the_scene
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_hells_loose  }
+		mutually_exclusive = { focus = CRO_mold_the_fight  }
+	}
+
+	#Pointless Schemes
+	focus = {
+		id = CRO_pointless_schemes
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_to_the_kneese  } prerequisite = { focus = CRO_rot_the_folds  }
+	}
+
+	#Void the Doiv
+	focus = {
+		id = CRO_void_the_doiv
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_tired_lashes  } prerequisite = { focus = CRO_ashes_to_dust  }
+	}
+
+	#Ashes to Dust
+	focus = {
+		id = CRO_ashes_to_dust
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CRO_mold_the_fight  }
+	}
+
+}
