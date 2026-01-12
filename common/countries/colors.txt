@@ -1,4 +1,4 @@
-#reload countrycolors
+﻿reload countrycolors
 
 GER = {
 	color = rgb { 48 45 46  }
@@ -134,7 +134,7 @@ BHU = {
 	color_ui = rgb { 172 122 88 }
 }
 BOL = {
-	color = hsv { 0.1 0.47 0.8 } #255 180 136
+	color = rgb { 255 180 136 } 
 	color_ui = rgb { 255 234 177 }
 }
 BRA = {
@@ -1138,6 +1138,7 @@ CXM = {
 	color = rgb { 137 60 89 }
 	color_ui = rgb { 137 60 89 }
 }
+
 CYM = {
 	color = rgb { 165 154 137 }
 	color_ui = rgb { 165 154 137 }
@@ -1262,9 +1263,6 @@ SYB = {
     color = rgb { 120 96 0 }
     color_ui = rgb { 0 0 0 }
 }
-
-
-#Custom colours start here
 MQN = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
@@ -1292,4 +1290,40 @@ LCA = {
 NWL = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
+}
+KYN = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+WQL = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+CQS = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+MWM = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+CGM = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+BAY = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+CQP = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+MXX = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
+}
+WPR = {
+    color = rgb { 0 0 0 }
+    color_ui = rgb { 0 0 0 }
 }

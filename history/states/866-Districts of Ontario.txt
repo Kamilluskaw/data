@@ -8,8 +8,9 @@ state = {
 
 	history = {
 
-		owner = CAN
+		owner = BAW
 		add_core_of = CAN
+		add_claim_by = LCA
 
 		buildings = {
 			infrastructure = 1
