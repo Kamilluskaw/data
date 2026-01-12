@@ -6,7 +6,7 @@ state={
 	}
 	history = {
 		add_core_of = YUG
-		add_core_of = MTG
+		add_core_of = MNT
 		owner = YUG
 	}
 	state_category = pastoral

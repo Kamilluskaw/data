@@ -2043,3 +2043,10 @@
  CZM_democratic_party:0 ""
  CZM_democratic_party_long:0 ""
 
+ NBR:0 "Nebraska Territory"
+ NBR_DEF:0 "Territory of Nebraska"
+ NBR_ADJ:0 "Nebraskan"
+ NBR_neutrality_party:0 "U"
+ NBR_neutrality_party_long:0 "Unionists"
+ NBR_authoritarianism_party:0 "S"
+ NBR_authoritarianism_party_long:0 "Secessionists"
