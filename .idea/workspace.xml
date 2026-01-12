@@ -4,63 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719ed1bf-040e-49f1-87ac-5c5b5c6a983f" name="Changes" comment="0.0.0.2&#10;&#10;Signed-off-by: kamilluska &lt;dashlight13@gmail.com&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/countries/colors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/countries/colors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/country_tags/custom_countries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/country_tags/custom_countries.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/countries/USA - USA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/countries/USA - USA.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/1032-Pljevjla.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/1032-Pljevjla.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/261-USA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/261-USA.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/271-ethiopia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/271-ethiopia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/276-Canada.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/276-Canada.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/3-Swiss Plateau.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/3-Swiss Plateau.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/332-Labrador.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/332-Labrador.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/358-New York.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/358-New York.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/360-Pennsylvania.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/360-Pennsylvania.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/361-Maryland.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/361-Maryland.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/362-Virginia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/362-Virginia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/363-North Carolina.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/363-North Carolina.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/364-South Carolina.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/364-South Carolina.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/365-Georgia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/365-Georgia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/366-Florida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/366-Florida.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/367-Alabama.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/367-Alabama.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/368-Tennesse.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/368-Tennesse.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/369-Kentucky.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/369-Kentucky.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/370-Mississippi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/370-Mississippi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/371-Louisiana.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/371-Louisiana.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/372-Arkansas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/372-Arkansas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/373-Missouri.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/373-Missouri.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/374-Oklahoma.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/374-Oklahoma.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/375-Texas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/375-Texas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/376-New Mexico.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/376-New Mexico.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/381-Wyoming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/381-Wyoming.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/382-Colorado.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/382-Colorado.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/383-Kansas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/383-Kansas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/384-Nebraska.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/384-Nebraska.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/385-Oregon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/385-Oregon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/387-Idaho.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/387-Idaho.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/388-Montana.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/388-Montana.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/389-North Dakota.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/389-North Dakota.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/390-South Dakota.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/390-South Dakota.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/391-Minnesota.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/391-Minnesota.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/392-Iowa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/392-Iowa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/393-Michigan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/393-Michigan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/394-Wisconsin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/394-Wisconsin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/396-Indiana.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/396-Indiana.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/419-Azerbaijan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/419-Azerbaijan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/467-Manitoba.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/467-Manitoba.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/468-Nunavut.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/468-Nunavut.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/469-Saskatchewan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/469-Saskatchewan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/470-Alberta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/470-Alberta.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/473-British Columbia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/473-British Columbia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/545-Rhodessa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/545-Rhodessa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/682-Northern Ontario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/682-Northern Ontario.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/816-West Virginia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/816-West Virginia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/860-Cote-Nord.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/860-Cote-Nord.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/862-ouest du quebec.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/862-ouest du quebec.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/states/863-Maurice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history/states/863-Maurice.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/countries_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/countries_l_english.yml" afterDir="false" />
-    </list>
+    <list default="true" id="719ed1bf-040e-49f1-87ac-5c5b5c6a983f" name="Changes" comment="0.0.0.2&#10;&#10;Signed-off-by: kamilluska &lt;dashlight13@gmail.com&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

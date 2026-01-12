@@ -1,7 +1,6 @@
 ﻿l_english:
-BAW_democratic:5 "Bay Area"
-BAW_democratic_DEF:5 "The Bay Area"
-BAW_democratic_ADJ:5 "Bay Area citizen"
-BAW_democratic_party:0 ""
-BAW_democratic_party_long:0 ""
+BAW:5 "Independent Hudson Bay"
+BAW_DEF:5 "The Bay Area"
+BAW_ADJ:5 "Bay Area citizen"
+
 
